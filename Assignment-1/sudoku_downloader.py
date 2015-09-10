@@ -43,4 +43,5 @@ def parse():
 
 
 if __name__ == '__main__':
-    parse()
+    for i in range(1000):
+        parse()
