@@ -1,0 +1,3 @@
+[submodule "Assignment-1/Sudoku-CNF-generator"]
+	path = Assignment-1/Sudoku-CNF-generator
+	url = https://github.com/sergisiso/Sudoku-CNF-generator.git
