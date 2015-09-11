@@ -1,0 +1,56 @@
+c PicoSAT SAT Solver Version 960
+c Copyright (c) 2006 - 2014 Armin Biere JKU Linz
+c gcc -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches  -m64 -mtune=generic -D_GNU_SOURCE=1 -DNDEBUG
+c
+c using 2 as default phase
+c
+c parsing output.cnf
+c parsed header 'p cnf 12201 44961'
+c initialized 12201 variables
+c found 44961 non trivial clauses
+c
+c random number generator seed 0
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+c s   0.1   0.0 11967   2.0  8285     6     0     0   0.0   2.4 
+c 
+c initial reduction limit 1000 clauses
+c 
+c +   0.1 175.6 11967  37.5  8285   106    96  1100  16.1   2.6 
+c R   0.1 175.6 11967  37.5  8285   107    96  1100  16.5   2.6 
+c +   0.1 185.7 11967  63.6  8285   227   211  1210  12.8   2.7 
+c +   0.1 200.4 11967  80.0  8285   373   355  1331  11.5   2.9 
+c R   0.1 207.4 11967  81.4  8285   407   389  1331   7.8   2.9 
+c +   0.2 202.8 11967  89.7  8285   549   529  1464  18.4   3.0 
+c +   0.2 216.0 11967  94.1  8285   761   740  1610  12.2   3.1 
+c +   0.2 216.8 11967  96.4  8285  1017   993  1771  16.7   3.4 
+c R   0.3 223.5 11967  97.3  8285  1209  1182  1771  11.9   3.7 
+c 1   0.3 220.6 11967  97.7  8285  1293  1264  1771  19.4   3.7 
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+s SATISFIABLE
+c
+c 0 iterations
+c 7 restarts
+c 6 failed literals
+c 1293 conflicts
+c 8392 decisions
+c 234 fixed variables
+c 142508 learned literals
+c 2.0% deleted literals
+c 1484491 propagations
+c 4081414 visits
+c 97.7% variables used
+c 0.3 seconds in library
+c 4.8 megaprops/second
+c 13.2 megavisits/second
+c probing 0.0 seconds 8%
+c 1 simplifications
+c 0 reductions
+c 0.0 MB recycled
+c 3.7 MB maximally allocated
+c 0.3 seconds total run time
