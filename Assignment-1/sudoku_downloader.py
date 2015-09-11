@@ -11,6 +11,8 @@ class PageParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.div_open = False
         self.table_open = False
+        self.sudoku = []
+        self.difficulty = ''
 
     def handle_starttag(self, tag, attrs):
         if tag == 'div':
@@ -29,19 +31,22 @@ class PageParser(HTMLParser):
     def handle_data(self, data):
         if self.div_open and self.table_open and data != '\n':
             try:
-                print(int(data) - 1, end=' ')
+                self.sudoku.append(str(int(data) - 1))
             except ValueError:
-                print(-1, end=' ')
+                self.sudoku.append('-1')
         elif self.div_open and not self.table_open:
             if data[:difficulty_prefix_len] == difficulty_prefix:
-                print('\n' + data[difficulty_prefix_len:])
+                self.difficulty = data[difficulty_prefix_len:data.index(' (')]
+
 
 def parse():
     data = request.urlopen('http://www.menneske.no/sudoku/eng/random.html').read().decode('UTF-8')
     parser = PageParser()
     parser.feed(data)
+    print(' '.join(parser.sudoku))
+    print(parser.difficulty)
 
 
 if __name__ == '__main__':
-    for i in range(1000):
+    for i in range(5000):
         parse()
