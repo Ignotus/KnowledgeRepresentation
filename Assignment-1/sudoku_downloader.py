@@ -39,8 +39,8 @@ class PageParser(HTMLParser):
                 self.difficulty = data[difficulty_prefix_len:data.index(' (')]
 
 
-def parse():
-    data = request.urlopen('http://www.menneske.no/sudoku/eng/random.html').read().decode('UTF-8')
+def parse(level):
+    data = request.urlopen('http://www.menneske.no/sudoku/eng/random.html?diff=' + str(level)).read().decode('UTF-8')
     parser = PageParser()
     parser.feed(data)
     print(' '.join(parser.sudoku))
@@ -48,5 +48,6 @@ def parse():
 
 
 if __name__ == '__main__':
-    for i in range(20000):
-        parse()
+    for level in range(1, 10):
+        for i in range(2000):
+            parse(level)
