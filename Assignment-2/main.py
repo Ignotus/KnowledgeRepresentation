@@ -144,7 +144,7 @@ class Solver:
         self.variables[constraint].domain.add(prev_state)
     self.variables[variable_name].domain = value
     self.variables[variable_name].domain.remove(prev_state)
-    print('Unpropagate', variable_name, '=', prev_state , '=>', value)
+    print('Unpropagate', variable_name, '=', prev_state , '=>', self.variables[variable_name])
 
   def domain_space_size(self):
     return sum([len(variable.domain) for variable in self.variables.values()])
@@ -164,7 +164,7 @@ class Solver:
     domain_state = copy.deepcopy(self.variables[current_variable].domain)
     new_domain = next(iter(domain_state))
     stack = [(current_variable, domain_state, new_domain)]
-    print('Setting', current_variable, 'to', {new_domain})
+    print('Setting', current_variable, 'to', {new_domain}, (domain_state))
     self.variables[current_variable].domain = {new_domain}
     while not self.is_happy():
       print('Domain size:', self.domain_space_size())
@@ -189,7 +189,7 @@ class Solver:
         domain_state = copy.deepcopy(self.variables[current_variable].domain)
         new_domain = next(iter(domain_state))
         stack.append((current_variable, domain_state, new_domain))
-        print('Setting', current_variable, 'to', new_domain)
+        print('Setting', current_variable, 'to', new_domain, (domain_state))
         self.variables[current_variable].domain = {new_domain}
 
 solver = Solver(variables, constraints)
