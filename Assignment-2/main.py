@@ -74,20 +74,24 @@ def preprocess_model1(sudoku):
         
   return variables, constraints
 
-
+to_kills = [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
+for x, y in to_kills:
+  print('Set %d,%d = %d to 0' % (x, y, sudoku_matrix[x, y]))
+  sudoku_matrix[x, y] = 0
 variables, constraints = preprocess_model1(sudoku_matrix)
 
 class Solver:
   def __init__(self, variables, constraints):
     self.variables, self.constraints = variables, constraints
-    sorted_keys = list(self.variables.keys())
-    sorted_keys.sort()
-    print(sorted_keys)
+    #sorted_keys = list(self.variables.keys())
+    #sorted_keys.sort()
+    #print(sorted_keys)
     self.satisfied = False
 
   def __str__(self):
     string = []
     for variable_name, variable in solver.variables.items():
+      #if not variable.fixed:
       string.append(variable_name + ' : ' + str(variable))
     return ', '.join(string)
 
@@ -126,6 +130,29 @@ class Solver:
               pass
     print(self)
 
+    while not self.is_happy():
+      new_fixed = []
+      for variable_name, variable in self.variables.items():
+        if not variable.fixed and len(variable.domain) == 1:
+          self.variables[variable_name].fixed = True
+          new_fixed.append(variable_name)
+
+      if not new_fixed:
+        break
+      else:
+        print('Propagating more from', new_fixed)
+        for variable_name in new_fixed:
+          #print('Check', variable_name, self.constraints[variable_name])
+          value = next(iter(self.variables[variable_name].domain))
+          for constraint in self.constraints[variable_name]:
+            if not self.variables[constraint].fixed:
+              try:
+                #print('Remove', value, 'from domain of', constraint)
+                self.variables[constraint].domain.remove(value)
+              except KeyError:
+                pass
+
+
   """
     TODO: Check
   """
@@ -156,14 +183,18 @@ class Solver:
     # Else -> Sh~~ happens
 
   def solve(self):
+    print(self)
     # Propagates fixed variables
     print('Initial domain size:', self.domain_space_size())
     self.propagate_fixed_variables()
     print('Domain size after fixed variables propagation:', self.domain_space_size())
+    if self.is_happy():
+      return
+
     current_variable = self.split()
     domain_state = copy.deepcopy(self.variables[current_variable].domain)
     new_domain = next(iter(domain_state))
-    stack = [(current_variable, domain_state, new_domain)]
+    stack = [(current_variable, domain_state, new_domain)];
     print('Setting', current_variable, 'to', {new_domain}, (domain_state))
     self.variables[current_variable].domain = {new_domain}
     while not self.is_happy():
