@@ -7,6 +7,7 @@ import time
 
 def create_sudoku_matrix(f):
   line = f.readline()
+  # TODO: Rewrite it for NxN sudoku
   sudoku_matrix = np.zeros((9, 9))
   index = 0
   for i in range(9):
@@ -257,3 +258,12 @@ t1 = time.time()
 solver.solve()
 print('Consumed time:', (time.time() - t1))
 print('Solution:', solver)
+
+def fill_sudoku(sudoku, solution):
+  for i in range(sudoku.shape[0]):
+    for j in range(sudoku.shape[1]):
+      if sudoku[i, j] == 0:
+        sudoku[i, j] = next(iter(solution['%d,%d' % (i, j)].domain))
+
+fill_sudoku(sudoku_matrix, solver.variables)
+print(sudoku_matrix)
