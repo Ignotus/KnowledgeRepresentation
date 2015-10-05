@@ -74,10 +74,10 @@ def preprocess_model1(sudoku):
         
   return variables, constraints
 
-to_kills = [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
-for x, y in to_kills:
-  print('Set %d,%d = %d to 0' % (x, y, sudoku_matrix[x, y]))
-  sudoku_matrix[x, y] = 0
+#to_kills = [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
+#for x, y in to_kills:
+#  print('Set %d,%d = %d to 0' % (x, y, sudoku_matrix[x, y]))
+#  sudoku_matrix[x, y] = 0
 variables, constraints = preprocess_model1(sudoku_matrix)
 
 class Solver:
@@ -100,7 +100,7 @@ class Solver:
         Returns true if a range of each variable has been specified
     """
     for variable in self.variables.values():
-      if len(variable.domain) > 1:
+      if len(variable.domain) != 1:
         return False
     return True
 
@@ -157,21 +157,43 @@ class Solver:
     TODO: Check
   """
   def propagate(self, variable_name, value):
-      print('Propagate', variable_name, '=', value)
-      for constraint in self.constraints[variable_name]:
-        if not self.variables[constraint].fixed:
-          try:
-            self.variables[constraint].domain.remove(value)
-          except KeyError:
-            pass
-
-  def unpropagate(self, variable_name, value, prev_state):
+    print('Propagate', variable_name, '=', value)
+    new_fixed = []
     for constraint in self.constraints[variable_name]:
       if not self.variables[constraint].fixed:
-        self.variables[constraint].domain.add(prev_state)
-    self.variables[variable_name].domain = value
-    self.variables[variable_name].domain.remove(prev_state)
-    print('Unpropagate', variable_name, '=', prev_state , '=>', self.variables[variable_name])
+        try:
+          self.variables[constraint].domain.remove(value)
+          if len(self.variables[constraint].domain) == 1:
+            new_fixed.append(constraint)
+        except KeyError:
+          pass
+
+    while new_fixed and not self.is_happy():
+      print('Propagate deeper')
+      new = []
+      for variable_name in new_fixed:
+        if len(self.variables[variable_name].domain) == 0:
+          # Unsatisfied, undo
+          return
+
+        value = next(iter(self.variables[variable_name].domain))
+        for constraint in self.constraints[variable_name]:
+          if not self.variables[constraint].fixed:
+            try:
+              self.variables[constraint].domain.remove(value)
+              if len(self.variables[constraint].domain) == 1:
+                new.append(constraint)
+            except KeyError:
+              pass
+      new_fixed = new
+
+  def unpropagate(self, variable_name, prev_state, current_value):
+    #for constraint in self.constraints[variable_name]:
+    #  if not self.variables[constraint].fixed:
+    #    self.variables[constraint].domain.add(prev_state)
+    self.variables[variable_name].domain = prev_state
+    self.variables[variable_name].domain.remove(current_value)
+    print('Unpropagate', variable_name, '=', current_value , '=>', self.variables[variable_name])
 
   def domain_space_size(self):
     return sum([len(variable.domain) for variable in self.variables.values()])
@@ -201,14 +223,18 @@ class Solver:
       print('Domain size:', self.domain_space_size())
       #print('Before propagation:', self.variables)
       prev_variable, domain, prev_state = stack[-1]
+      undo_state = copy.deepcopy(self.variables)
+      #print(self)
       self.propagate(prev_variable, prev_state)
       if self.is_unsatisfied():
         if len(stack) > 0:
           # POP THE STACK!
-          #prev_variable, domain, prev_state = stack[-1]
+          print('Unpropagate')
+
+          self.variables = undo_state
           self.unpropagate(prev_variable, domain, prev_state)
           del stack[-1]
-          #print(self.variables)
+          print(self)
 
       if not self.is_happy():
         #print('I\'m not happy!')
@@ -220,8 +246,11 @@ class Solver:
         domain_state = copy.deepcopy(self.variables[current_variable].domain)
         new_domain = next(iter(domain_state))
         stack.append((current_variable, domain_state, new_domain))
+        print(stack)
         print('Setting', current_variable, 'to', new_domain, (domain_state))
         self.variables[current_variable].domain = {new_domain}
+    if self.is_unsatisfied():
+      print('Unsatisfied, something weird.')
 
 solver = Solver(variables, constraints)
 t1 = time.time()
