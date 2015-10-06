@@ -1,3 +1,26 @@
+# The MIT License (MIT)
+#
+# Copyright (c) 2015 Minh Ngo
+# Copyright (c) 2015 Casper Thuis
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 import sys
 import pprint
 import numpy as np
@@ -27,14 +50,6 @@ if len(sys.argv) > 1:
 sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'))
 print(sudoku_matrix)
 
-class Variable:
-  def __init__(self):
-    self.domain = {}
-    self.fixed = False
-
-  def __str__(self):
-    return ("Fixed " if self.fixed else "") + str(self.domain)
-
 def preprocess_model1(sudoku):
   """
       Returns variables and constraints
@@ -48,13 +63,11 @@ def preprocess_model1(sudoku):
   for i in range(row):
     for j in range(column):
       cell_name = '%d,%d' % (i, j)
-      var = Variable()
+      var = None
       if sudoku[i, j] == 0:
-        var.domain = {1, 2, 3, 4, 5, 6, 7, 8, 9}
-        var.fixed = False
+        var = {1, 2, 3, 4, 5, 6, 7, 8, 9}
       else:
-        var.domain = {sudoku[i, j]}
-        var.fixed = True
+        var = {sudoku[i, j]}
 
       variables[cell_name] = var
 
@@ -69,189 +82,137 @@ def preprocess_model1(sudoku):
 
       rect_i = (i // 3) * 3
       rect_j = (j // 3) * 3
-      for ii in [rect_i, rect_i + 2]:
-        for jj in [rect_j, rect_j + 2]:
-          constraints[cell_name].add('%d,%d' % (ii, jj))
+      for ii in range(rect_i, rect_i + 3):
+        for jj in range(rect_j, rect_j + 3):
+          if ii != i and jj != j:
+            constraints[cell_name].add('%d,%d' % (ii, jj))
         
   return variables, constraints
 
-#to_kills = [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
-#for x, y in to_kills:
-#  print('Set %d,%d = %d to 0' % (x, y, sudoku_matrix[x, y]))
-#  sudoku_matrix[x, y] = 0
 variables, constraints = preprocess_model1(sudoku_matrix)
 
 class Solver:
   def __init__(self, variables, constraints):
     self.variables, self.constraints = variables, constraints
-    #sorted_keys = list(self.variables.keys())
-    #sorted_keys.sort()
-    #print(sorted_keys)
-    self.satisfied = False
 
   def __str__(self):
     string = []
-    for variable_name, variable in solver.variables.items():
-      #if not variable.fixed:
-      string.append(variable_name + ' : ' + str(variable))
+    for name, domain in solver.variables.items():
+      string.append('%s : %s' % (name, domain))
     return ', '.join(string)
 
   def is_happy(self):
     """
         Returns true if a range of each variable has been specified
     """
-    for variable in self.variables.values():
-      if len(variable.domain) != 1:
+    for domain in self.variables.values():
+      if not self.is_atomic(domain):
         return False
     return True
 
   def is_unsatisfied(self):
-    for key, variable in self.variables.items():
-      if len(variable.domain) == 0:
-        print('Unsatisfied: len(', key, ') = 0')
+    for name, domain in self.variables.items():
+      if len(domain) == 0:
+        #print('Unsatisfied: len("%s") = 0' % (name))
         return True
     return False
 
-  def is_atomic(self, variable_domain):
-    return len(variable_domain) == 1
+  def is_atomic(self, domain):
+    return len(domain) == 1
 
-  def propagate_fixed_variables(self):
-    """
-    Propagates fixed variables
-    """
-    print('Propagating fixed variables...')
-    for variable_name, variable in self.variables.items():
-      if variable.fixed:
-        value = next(iter(variable.domain))
-        for constraint in self.constraints[variable_name]:
-          if not self.variables[constraint].fixed:
-            try:
-              self.variables[constraint].domain.remove(value)
-            except KeyError:
-              pass
-    print(self)
+  def propagate(self):
+    print('Propagating')
+    newAtomics = []
+    for vName, vDomain in self.variables.items():
+      if not self.is_atomic(vDomain):
+        continue
 
-    while not self.is_happy():
-      new_fixed = []
-      for variable_name, variable in self.variables.items():
-        if not variable.fixed and len(variable.domain) == 1:
-          self.variables[variable_name].fixed = True
-          new_fixed.append(variable_name)
-
-      if not new_fixed:
-        break
-      else:
-        print('Propagating more from', new_fixed)
-        for variable_name in new_fixed:
-          #print('Check', variable_name, self.constraints[variable_name])
-          value = next(iter(self.variables[variable_name].domain))
-          for constraint in self.constraints[variable_name]:
-            if not self.variables[constraint].fixed:
-              try:
-                #print('Remove', value, 'from domain of', constraint)
-                self.variables[constraint].domain.remove(value)
-              except KeyError:
-                pass
-
-
-  """
-    TODO: Check
-  """
-  def propagate(self, variable_name, value):
-    print('Propagate', variable_name, '=', value)
-    new_fixed = []
-    for constraint in self.constraints[variable_name]:
-      if not self.variables[constraint].fixed:
+      vVal = next(iter(vDomain))
+      for cName in self.constraints[vName]:
+        cDomain = self.variables[cName]
         try:
-          self.variables[constraint].domain.remove(value)
-          if len(self.variables[constraint].domain) == 1:
-            new_fixed.append(constraint)
+          cDomain.remove(vVal)
+          if self.is_atomic(cDomain):
+            newAtomics.append((cName, next(iter(cDomain))))
         except KeyError:
           pass
 
-    while new_fixed and not self.is_happy():
-      print('Propagate deeper')
-      new = []
-      for variable_name in new_fixed:
-        if len(self.variables[variable_name].domain) == 0:
-          # Unsatisfied, undo
-          return
-
-        value = next(iter(self.variables[variable_name].domain))
-        for constraint in self.constraints[variable_name]:
-          if not self.variables[constraint].fixed:
-            try:
-              self.variables[constraint].domain.remove(value)
-              if len(self.variables[constraint].domain) == 1:
-                new.append(constraint)
-            except KeyError:
-              pass
-      new_fixed = new
-
-  def unpropagate(self, variable_name, prev_state, current_value):
-    #for constraint in self.constraints[variable_name]:
-    #  if not self.variables[constraint].fixed:
-    #    self.variables[constraint].domain.add(prev_state)
-    self.variables[variable_name].domain = prev_state
-    self.variables[variable_name].domain.remove(current_value)
-    print('Unpropagate', variable_name, '=', current_value , '=>', self.variables[variable_name])
+    while newAtomics:
+      ##print('Deeper...', newAtomics)
+      atomics = []
+      for vName, vVal in newAtomics:
+        for cName in self.constraints[vName]:
+          cDomain = self.variables[cName]
+          try:
+            cDomain.remove(vVal)
+            if self.is_atomic(cDomain):
+              atomics.append((cName, next(iter(cDomain))))
+          except KeyError:
+            pass
+      newAtomics = atomics
 
   def domain_space_size(self):
-    return sum([len(variable.domain) for variable in self.variables.values()])
+    return sum([len(domain) for domain in self.variables.values()])
 
   def split(self):
-    for variable_name, var in self.variables.items():
-      if len(var.domain) > 1:
-        return variable_name
+    """
+    Chooses the variable to split
+    """
+    for name in sorted(self.variables.keys()):
+      domain = self.variables[name]
+      if len(domain) > 1:
+        print('Splitting "%s" with a domain %s' % (name, domain))
+        return name
     # Else -> Sh~~ happens
 
   def solve(self):
     print(self)
     # Propagates fixed variables
     print('Initial domain size:', self.domain_space_size())
-    self.propagate_fixed_variables()
+    self.propagate()
     print('Domain size after fixed variables propagation:', self.domain_space_size())
+    print(self)
     if self.is_happy():
       return
 
-    current_variable = self.split()
-    domain_state = copy.deepcopy(self.variables[current_variable].domain)
-    new_domain = next(iter(domain_state))
-    stack = [(current_variable, domain_state, new_domain)];
-    print('Setting', current_variable, 'to', {new_domain}, (domain_state))
-    self.variables[current_variable].domain = {new_domain}
-    while not self.is_happy():
-      print('Domain size:', self.domain_space_size())
-      #print('Before propagation:', self.variables)
-      prev_variable, domain, prev_state = stack[-1]
-      undo_state = copy.deepcopy(self.variables)
-      #print(self)
-      self.propagate(prev_variable, prev_state)
+    # DFS stack
+    stack = []
+
+    # If we split by a variable A1 and then split by a variable A2, then we don't need
+    # to split in the opposite way. Because it's actually the same solution.
+    vName = self.split()
+
+    worldState = copy.deepcopy(self.variables)
+    # Put each variable in the current_var domain into the stack
+    for val in sorted(self.variables[vName]):
+      stack.append((vName, val, worldState))
+
+    decisionStack = []
+    while stack and not self.is_happy():
+      print('Decision stack size:', len(decisionStack))
+      vName, val, worldState = stack.pop()
+      self.variables[vName] = {val}
+      print('Setting "%s" to %d' % (vName, val))
+      ##print('In the stack:', [(vName, val) for vName, val, _ in stack[-5:]])
+      decisionStack.append((vName, val, worldState))
+      ##print('In the decision stack:', [(vName, val) for vName, val, _ in decisionStack[-5:]])
+      self.propagate()
+
+      # If it's unsatisfied solution. Then we need to backtrack.
       if self.is_unsatisfied():
-        if len(stack) > 0:
-          # POP THE STACK!
-          print('Unpropagate')
-
-          self.variables = undo_state
-          self.unpropagate(prev_variable, domain, prev_state)
-          del stack[-1]
-          print(self)
-
-      if not self.is_happy():
-        #print('I\'m not happy!')
-        #if self.is_atomic(variable):
-        #  is_continue = False
-        #else:
-        print('I\'m still not happy! Split more.')
-        current_variable = self.split()
-        domain_state = copy.deepcopy(self.variables[current_variable].domain)
-        new_domain = next(iter(domain_state))
-        stack.append((current_variable, domain_state, new_domain))
-        print(stack)
-        print('Setting', current_variable, 'to', new_domain, (domain_state))
-        self.variables[current_variable].domain = {new_domain}
-    if self.is_unsatisfied():
-      print('Unsatisfied, something weird.')
+        # If it's the last child then pop a parent (because a parent
+        # is not satisfied as well).
+        print('Unpropagate')
+        vName, _, undoState = decisionStack.pop()
+        while stack and decisionStack and (stack[-1][0] != decisionStack[-1][0]):
+          vName, _, undoState = decisionStack.pop()
+          #print('Unpropagate to the parent %s' % (vName))
+        self.variables = copy.deepcopy(undoState)
+      elif not self.is_happy():
+        vName = self.split()
+        worldState = copy.deepcopy(self.variables)
+        for val in sorted(self.variables[vName]):
+          stack.append((vName, val, worldState))
 
 solver = Solver(variables, constraints)
 t1 = time.time()
@@ -263,7 +224,8 @@ def fill_sudoku(sudoku, solution):
   for i in range(sudoku.shape[0]):
     for j in range(sudoku.shape[1]):
       if sudoku[i, j] == 0:
-        sudoku[i, j] = next(iter(solution['%d,%d' % (i, j)].domain))
+        sudoku[i, j] = next(iter(solution['%d,%d' % (i, j)]))
 
+print(solver.domain_space_size())
 fill_sudoku(sudoku_matrix, solver.variables)
 print(sudoku_matrix)
