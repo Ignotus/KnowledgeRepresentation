@@ -189,7 +189,8 @@ class Solver:
 
     decisionStack = []
     while stack and not self.is_happy():
-      print('Decision stack size:', len(decisionStack))
+      print('Decision stack:', [(vName, val) for vName, val, _ in decisionStack])
+      print('Stack:', [(vName, val) for vName, val, _ in stack])
       vName, val, worldState = stack.pop()
       self.variables[vName] = {val}
       print('Setting "%s" to %d' % (vName, val))
@@ -204,7 +205,7 @@ class Solver:
         # is not satisfied as well).
         print('Unpropagate')
         vName, _, undoState = decisionStack.pop()
-        while stack and decisionStack and (stack[-1][0] != decisionStack[-1][0]):
+        while stack and decisionStack and (stack[-1][0] != vName):
           vName, _, undoState = decisionStack.pop()
           #print('Unpropagate to the parent %s' % (vName))
         self.variables = copy.deepcopy(undoState)
