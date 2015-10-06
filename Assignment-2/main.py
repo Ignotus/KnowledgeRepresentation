@@ -71,21 +71,23 @@ def preprocess_model1(sudoku):
 
       variables[cell_name] = var
 
-      constraints[cell_name] = set()
+      cell_constraints = set()
       for ii in range(row):
         if ii != i:
-          constraints[cell_name].add('%d,%d' % (ii, j))
+          cell_constraints.add('%d,%d' % (ii, j))
 
       for jj in range(column):
         if jj != j:
-          constraints[cell_name].add('%d,%d' % (i, jj))
+          cell_constraints.add('%d,%d' % (i, jj))
 
       rect_i = (i // 3) * 3
       rect_j = (j // 3) * 3
       for ii in range(rect_i, rect_i + 3):
         for jj in range(rect_j, rect_j + 3):
           if ii != i and jj != j:
-            constraints[cell_name].add('%d,%d' % (ii, jj))
+            cell_constraints.add('%d,%d' % (ii, jj))
+
+      constraints[cell_name] = list(cell_constraints)
         
   return variables, constraints
 
