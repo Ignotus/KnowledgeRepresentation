@@ -27,27 +27,27 @@ import numpy as np
 import copy
 import time
 
-
-def create_sudoku_matrix(f):
+# Create_sudoku_matrix reads file name and size and return a matrix that contains 
+# sudoku and the instanice
+def create_sudoku_matrix(f, size):
   line = f.readline()
   # TODO: Rewrite it for NxN sudoku
-  sudoku_matrix = np.zeros((9, 9))
+  sudoku_matrix = np.zeros((size, size))
   index = 0
-  for i in range(9):
-    for j in range(9):
+  for i in range(size):
+    for j in range(size):
       if line[index].isdigit():
         sudoku_matrix[i, j] = line[index]
       else:
         sudoku_matrix[i, j] = 0
       index += 1
-
   return sudoku_matrix.astype(int)
 
 file_name = 'test.txt'
 if len(sys.argv) > 1:
   file_name = sys.argv[1]
 
-sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'))
+sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
 print(sudoku_matrix)
 
 def preprocess_model1(sudoku):
@@ -88,6 +88,46 @@ def preprocess_model1(sudoku):
             constraints[cell_name].add('%d,%d' % (ii, jj))
         
   return variables, constraints
+
+def preprocess_model2(sudoku, size):
+  row, column = sudoku.shape
+  variables = {}
+  constraints = {}
+
+    
+  fixed = []
+  full_domain = []
+  for i in range(row):
+    for j in range(column):
+      if sudoku[i,j] != 0:
+        fixed.append([sudoku_matrix[i,j], i, j])
+      else:
+        full_domain.append([i,j])  
+
+  for i in range(1,size+1):
+    x = [option for option in fixed if option[0] == i]
+    for j in range(1,size+1):
+      var = Variable()
+      variable_name = '%d,%d' % (i, j)
+      if j <= len(x):
+        var.domain = x[j-1][1:3]
+        var.fixed = True
+      else:
+        var.domain = full_domain
+      variables[variable_name] = var
+
+  # CONSTRAINTS NOT FIGURED OUT YET!!!      
+
+  
+  x = variables.values()
+  y = variables.keys()
+  
+  for i,j in enumerate(x):
+      print y[i]
+      print j.domain
+  return variables
+
+
 
 variables, constraints = preprocess_model1(sudoku_matrix)
 
