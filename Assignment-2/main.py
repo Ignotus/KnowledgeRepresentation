@@ -169,7 +169,7 @@ def preprocess_model2(sudoku, size):
 variables, constraints = preprocess_model1(sudoku_matrix)
 #print constraints
 variables, constraints = preprocess_model2(sudoku_matrix,9)
-print constraints
+#print constraints
 
 class Solver:
   def __init__(self, variables, constraints):
@@ -238,14 +238,20 @@ class Solver:
     """
     Chooses the variable to split
     """
-    
+    smallest_domain_len = 81
+    smallest_domain_name = []
     for name in sorted(self.variables.keys()):
       domain = self.variables[name]
       #print ('name', name)      
       #print ('len', len(domain))
-      if len(domain) > 1 and len(domain) < 3:
+      if len(domain) > 1 and smallest_domain_len > len(domain):
+        smallest_domain_name = name
+        smallest_domain_len = len(domain)
         print('Splitting "%s" with a domain %s' % (name, domain))
-        return name  
+    
+    return smallest_domain_name
+
+
     # Else -> Sh~~ happens
 
   def solve(self):
@@ -267,7 +273,7 @@ class Solver:
 
     worldState = copy.deepcopy(self.variables)
     # Put each variable in the current_var domain into the stack
-    for val in sorted(self.variables[vName]):
+    for val in sorted(list(self.variables[vName])):
       stack.append((vName, val, worldState))
 
     decisionStack = []
