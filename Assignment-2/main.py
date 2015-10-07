@@ -43,7 +43,7 @@ def create_sudoku_matrix(f, size):
       index += 1
   return sudoku_matrix.astype(int)
 
-file_name = 'test.txt'
+file_name = 'test3.txt'
 if len(sys.argv) > 1:
   file_name = sys.argv[1]
 
@@ -104,34 +104,72 @@ def preprocess_model2(sudoku, size):
       if sudoku[i,j] != 0:
         fixed.append([sudoku_matrix[i,j], i, j])
       else:
-        full_domain.append([i,j])  
-
+        domain = '%i,%i' %(i,j) 
+        full_domain.append(domain)  
+      
+  full_domain = set(full_domain)      
+  
   for i in range(1,size+1):
     x = [option for option in fixed if option[0] == i]
     for j in range(1,size+1):
-      var = Variable()
       variable_name = '%d,%d' % (i, j)
-      if j <= len(x):
-        var.domain = x[j-1][1:3]
-        var.fixed = True
+      if j <= len(x): 
+        domain = '%i,%i' %(x[j-1][1], x[j-1][2] )
+        variables[variable_name + 'c'] = {domain} 
+        variables[variable_name + 'r'] = {domain}
+        variables[variable_name + 'b'] = {domain}
       else:
-        var.domain = full_domain
-      variables[variable_name] = var
+        variables[variable_name + 'c'] = full_domain
+        variables[variable_name + 'r'] = full_domain
+        variables[variable_name + 'b'] = full_domain
 
-  # CONSTRAINTS NOT FIGURED OUT YET!!!      
+   
+  for i in range(1,size+1):
+    for j in range(1,size+1):
+      constrain_options = ['c', 'r', 'b']
+      for c in range(3):
+        constrainted_variable = '%i,%i%s' %(i,j,constrain_options[c])
+        #print constrainted_variable
+        number_constrains = set()
+        for k in range(1,size+1):
+          if j != k:
+            constraint = '%i,%i%s' %(i,k,constrain_options[c])
+            number_constrains.add(constraint)
+            #constraint = '%i,%i%s' %(i,k,constrain_options[c-1])
+            #number_constrains.add(constraint)
+            #constraint = '%i,%i%s' %(i,k,constrain_options[c-2])  
+            #number_constrains.add(constraint)
+          else:
+            continue        
+        #print number_constrains    
+        constraints[constrainted_variable] = list(number_constrains)    
+        
+        
+
+
+        # for k in range(1,size+1):
+        #   if j != k:
+        #     constraint = '%i,%i%s' %(i,k,constrain_options[c-1])
+        #     #print constraint  
+        #     number_constrains.add(constraint)
+        #     constraint = '%i,%i%s' %(i,k,constrain_options[c-2])  
+        #     #print constraint
+        #     number_constrains.add(constraint)
+        #   else:
+        #     continue
+        # print number_constrains    
+        # constraints[constrainted_variable] = list(number_constrains)
+
 
   
-  x = variables.values()
-  y = variables.keys()
-  
-  for i,j in enumerate(x):
-      print y[i]
-      print j.domain
-  return variables
+  return variables, constraints
 
 
 
 variables, constraints = preprocess_model1(sudoku_matrix)
+#print constraints
+variables, constraints = preprocess_model2(sudoku_matrix,9)
+print constraints
 
 class Solver:
   def __init__(self, variables, constraints):
@@ -200,11 +238,14 @@ class Solver:
     """
     Chooses the variable to split
     """
+    
     for name in sorted(self.variables.keys()):
       domain = self.variables[name]
-      if len(domain) > 1:
+      #print ('name', name)      
+      #print ('len', len(domain))
+      if len(domain) > 1 and len(domain) < 3:
         print('Splitting "%s" with a domain %s' % (name, domain))
-        return name
+        return name  
     # Else -> Sh~~ happens
 
   def solve(self):
@@ -235,7 +276,7 @@ class Solver:
       print('Stack:', [(vName, val) for vName, val, _ in stack])
       vName, val, worldState = stack.pop()
       self.variables[vName] = {val}
-      print('Setting "%s" to %d' % (vName, val))
+      #print('Setting "%s" to %d' % (vName, val))
       ##print('In the stack:', [(vName, val) for vName, val, _ in stack[-5:]])
       decisionStack.append((vName, val, worldState))
       ##print('In the decision stack:', [(vName, val) for vName, val, _ in decisionStack[-5:]])
