@@ -43,9 +43,9 @@ def create_sudoku_matrix(f, size):
       index += 1
   return sudoku_matrix.astype(int)
 
-file_name = 'test3.txt'
-if len(sys.argv) > 1:
-  file_name = sys.argv[1]
+file_name = 'test.txt'
+if len(sys.argv) > 2:
+  file_name = sys.argv[2]
 
 sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
 print(sudoku_matrix)
@@ -91,85 +91,85 @@ def preprocess_model1(sudoku):
         
   return variables, constraints
 
-def preprocess_model2(sudoku, size):
-  row, column = sudoku.shape
+def preprocess_model2(sudoku):
+  size, _ = sudoku.shape
   variables = {}
   constraints = {}
 
-    
-  fixed = []
-  full_domain = []
-  for i in range(row):
-    for j in range(column):
-      if sudoku[i,j] != 0:
-        fixed.append([sudoku_matrix[i,j], i, j])
-      else:
-        domain = '%i,%i' %(i,j) 
-        full_domain.append(domain)  
-      
-  full_domain = set(full_domain)      
-  
-  for i in range(1,size+1):
-    x = [option for option in fixed if option[0] == i]
-    for j in range(1,size+1):
-      variable_name = '%d,%d' % (i, j)
-      if j <= len(x): 
-        domain = '%i,%i' %(x[j-1][1], x[j-1][2] )
-        variables[variable_name + 'c'] = {domain} 
-        variables[variable_name + 'r'] = {domain}
-        variables[variable_name + 'b'] = {domain}
-      else:
-        variables[variable_name + 'c'] = full_domain
-        variables[variable_name + 'r'] = full_domain
-        variables[variable_name + 'b'] = full_domain
+  for i in range(size):
+    for j in range(size):
+      fixedValue = sudoku_matrix[i, j]
+      if fixedValue != 0:
+        cellName = '%d,%d' % (i, j)
+        variables['%d,%dc' % (fixedValue, j)] = {cellName}
+        variables['%d,%dr' % (fixedValue, i)] = {cellName}
+        boxId = (i // 3) * (size // 3) + j // 3
+        variables['%d,%db' % (fixedValue, boxId)] = {cellName}
 
-   
-  for i in range(1,size+1):
-    for j in range(1,size+1):
-      constrain_options = ['c', 'r', 'b']
-      for c in range(3):
-        constrainted_variable = '%i,%i%s' %(i,j,constrain_options[c])
-        #print constrainted_variable
-        number_constrains = set()
-        for k in range(1,size+1):
-          if j != k:
-            constraint = '%i,%i%s' %(i,k,constrain_options[c])
-            number_constrains.add(constraint)
-            #constraint = '%i,%i%s' %(i,k,constrain_options[c-1])
-            #number_constrains.add(constraint)
-            #constraint = '%i,%i%s' %(i,k,constrain_options[c-2])  
-            #number_constrains.add(constraint)
-          else:
-            continue        
-        #print number_constrains    
-        constraints[constrainted_variable] = list(number_constrains)    
-        
-        
+  for i in range(1, size + 1): # Number
+    for j in range(size): # Number index
+      varNameC = '%d,%dc' % (i, j)
+      varNameR = '%d,%dr' % (i, j)
+      varNameB = '%d,%db' % (i, j)
+      if varNameC not in variables:
+        # j specifies column, k specifies row
+        variables[varNameC] = {'%d,%d' % (k, j) for k in range(size)}
 
+      if varNameR not in variables:
+        # j specifies row, k specifies column
+        variables[varNameR] = {'%d,%d' % (j, k) for k in range(size)}
 
-        # for k in range(1,size+1):
-        #   if j != k:
-        #     constraint = '%i,%i%s' %(i,k,constrain_options[c-1])
-        #     #print constraint  
-        #     number_constrains.add(constraint)
-        #     constraint = '%i,%i%s' %(i,k,constrain_options[c-2])  
-        #     #print constraint
-        #     number_constrains.add(constraint)
-        #   else:
-        #     continue
-        # print number_constrains    
-        # constraints[constrainted_variable] = list(number_constrains)
+      if varNameB not in variables:
+        # j specifies box
+        boxColStart = j * 3 % size
+        boxRowStart = (j * 3 // size) * 3
+        variables[varNameB] = {'%d,%d' % (m, k) for k in range(boxColStart, boxColStart + 3)
+                                                for m in range(boxRowStart, boxRowStart + 3)}
+        print(variables[varNameB])
 
+  allConstraints = set(variables.keys())
+  print(sorted(list(allConstraints)))
+  #sys.exit()
+  for i in range(1, size + 1): # Number
+    for j in range(size): # Number index
+      varNameC = '%d,%dc' % (i, j)
+      eqConstraintC = {varNameC}
+      # Should be in the j column only
+      for k in range(size):
+        eqConstraintC.add('%d,%dr' % (i, k))
 
-  
+      for k in range(j // 3, size, 3):
+        eqConstraintC.add('%d,%db' % (i, k))
+
+      constraints[varNameC] = list(allConstraints.difference(eqConstraintC))
+
+      varNameR = '%d,%dr' % (i, j)
+      eqConstraintR = {varNameR}
+      for k in range(size):
+        eqConstraintR.add('%d,%dc' % (i, k))
+
+      for k in range((j // 3) * (size // 3), (j // 3) * (size // 3) + 3):
+        eqConstraintR.add('%d,%db' % (i, k))
+
+      constraints[varNameR] = list(allConstraints.difference(eqConstraintR))
+
+      varNameB = '%d,%db' % (i, j)
+      eqConstraintB = {varNameB}
+      boxColStart = (j * 3) % size
+      boxRowStart = ((j * 3) // size) * 3
+      for k in range(boxRowStart, boxRowStart + 3):
+        eqConstraintB.add('%d,%dr' % (i, k))
+      for k in range(boxColStart, boxColStart + 3):
+        eqConstraintB.add('%d,%dc' % (i, k))
+      constraints[varNameB] = list(allConstraints.difference(eqConstraintB))
   return variables, constraints
 
-
-
-variables, constraints = preprocess_model1(sudoku_matrix)
-#print constraints
-variables, constraints = preprocess_model2(sudoku_matrix,9)
-#print constraints
+if sys.argv[1] == 'MODEL1':
+  variables, constraints = preprocess_model1(sudoku_matrix)
+  #print constraints
+elif sys.argv[1] == 'MODEL2':
+  variables, constraints = preprocess_model2(sudoku_matrix)
+  #print constraints
 
 class Solver:
   def __init__(self, variables, constraints):
@@ -310,12 +310,13 @@ solver.solve()
 print('Consumed time:', (time.time() - t1))
 print('Solution:', solver)
 
-def fill_sudoku(sudoku, solution):
+def fill_sudoku_model1(sudoku, solution):
   for i in range(sudoku.shape[0]):
     for j in range(sudoku.shape[1]):
       if sudoku[i, j] == 0:
         sudoku[i, j] = next(iter(solution['%d,%d' % (i, j)]))
 
 print(solver.domain_space_size())
-fill_sudoku(sudoku_matrix, solver.variables)
+if sys.argv[1] == 'MODEL1':
+  fill_sudoku_model1(sudoku_matrix, solver.variables)
 print(sudoku_matrix)
