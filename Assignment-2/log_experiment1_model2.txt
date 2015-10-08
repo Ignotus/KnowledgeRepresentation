@@ -1,0 +1,5400 @@
+c Consumed time: 0.03803420066833496
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.031147480010986328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03532719612121582
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023372411727905273
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021247386932373047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03462100028991699
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020770788192749023
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023022890090942383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020468473434448242
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025720834732055664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026001930236816406
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024808406829833984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022246122360229492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0499567985534668
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04941964149475098
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020246267318725586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04820513725280762
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.048213958740234375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03378582000732422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.046948909759521484
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05746579170227051
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04170680046081543
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.054666996002197266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06119680404663086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022003889083862305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05626392364501953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.030192136764526367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02202606201171875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02102971076965332
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04306459426879883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020540714263916016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020365238189697266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020467281341552734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020406484603881836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020426273345947266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020217418670654297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021206140518188477
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02010059356689453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02051830291748047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02008986473083496
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02053999900817871
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0202639102935791
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020549297332763672
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020312786102294922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02037668228149414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021045446395874023
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02298712730407715
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020845413208007812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02084970474243164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02077960968017578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02063751220703125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020168066024780273
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02062082290649414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020331621170043945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020478010177612305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020292043685913086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020287513732910156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020555496215820312
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021042346954345703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020406484603881836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020358800888061523
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020509719848632812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02023601531982422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020487308502197266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020469188690185547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020522356033325195
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020365476608276367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02026057243347168
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0214083194732666
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02164936065673828
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02121591567993164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020433664321899414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020371675491333008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020805835723876953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020798683166503906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02060532569885254
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02021193504333496
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021047592163085938
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02093982696533203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021697521209716797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0205538272857666
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021069049835205078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020381927490234375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020972728729248047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020567655563354492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02162313461303711
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0207822322845459
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020583391189575195
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02065563201904297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022013187408447266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020694255828857422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020417451858520508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02008342742919922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020862817764282227
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021239519119262695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02036571502685547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022545814514160156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020430326461791992
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020311355590820312
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02029132843017578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020366907119750977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020191669464111328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020250558853149414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0207674503326416
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02008509635925293
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020580291748046875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02089238166809082
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02218794822692871
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020563840866088867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02134394645690918
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021744728088378906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020448923110961914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02054882049560547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021403074264526367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024381399154663086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021085262298583984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020288944244384766
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020523548126220703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020727872848510742
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02142500877380371
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020205974578857422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021046161651611328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020303726196289062
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021384239196777344
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021607637405395508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020271778106689453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020184755325317383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02019190788269043
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02027297019958496
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020387887954711914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02063155174255371
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020325899124145508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020411252975463867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020800113677978516
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02203512191772461
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02016758918762207
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020370960235595703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020260334014892578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02041006088256836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020449161529541016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021041393280029297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02064824104309082
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020223617553710938
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020830154418945312
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020471572875976562
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020587921142578125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.01996898651123047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021278858184814453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020821809768676758
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02051568031311035
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020650148391723633
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020625591278076172
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021292924880981445
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020884990692138672
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020212173461914062
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020694971084594727
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02022266387939453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020560264587402344
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02123284339904785
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020750999450683594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021059513092041016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02020573616027832
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02105855941772461
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02043294906616211
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020438194274902344
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020554065704345703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020130634307861328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020612239837646484
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020397424697875977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020514726638793945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02052783966064453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020557165145874023
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020416975021362305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020328521728515625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020764589309692383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020393848419189453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020227909088134766
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021033763885498047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02021646499633789
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0218203067779541
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020898103713989258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02022719383239746
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02106308937072754
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020966053009033203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021341323852539062
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020487070083618164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02040410041809082
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020098209381103516
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020720481872558594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020314931869506836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020270347595214844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02046060562133789
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02042245864868164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0200960636138916
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020619869232177734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02015542984008789
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022541284561157227
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020238161087036133
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021222829818725586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020823001861572266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020824193954467773
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020904064178466797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022059202194213867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020635604858398438
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020692825317382812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020657062530517578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02073836326599121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021466493606567383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02094101905822754
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020946502685546875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02080821990966797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02141118049621582
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020586729049682617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020972251892089844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02209305763244629
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021303415298461914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02056097984313965
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02136826515197754
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022264957427978516
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02133941650390625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02070307731628418
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022068262100219727
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02094745635986328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03308534622192383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026956558227539062
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02412891387939453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04869651794433594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024174213409423828
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.028531789779663086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03205752372741699
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022571802139282227
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025435447692871094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04143476486206055
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03406071662902832
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020986318588256836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024101972579956055
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021625995635986328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023159503936767578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02295970916748047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022789716720581055
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02367877960205078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02183842658996582
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023923873901367188
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021765947341918945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022161245346069336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022021055221557617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022196054458618164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03782534599304199
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04233837127685547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.027292966842651367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02088785171508789
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020908594131469727
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022020339965820312
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02083444595336914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023057937622070312
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023236989974975586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022325754165649414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.030727624893188477
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023166418075561523
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021208763122558594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023424625396728516
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024437665939331055
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02198028564453125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04065275192260742
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04240989685058594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03040933609008789
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024158239364624023
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.039488792419433594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026660442352294922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022319316864013672
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022765636444091797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02082538604736328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024967193603515625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02199411392211914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02196645736694336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022235870361328125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02482771873474121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.031571388244628906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02447509765625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022353172302246094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026042461395263672
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.046674489974975586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04960465431213379
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04722118377685547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02834010124206543
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.037413835525512695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021187305450439453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02300119400024414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020759105682373047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02150726318359375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021541118621826172
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02077507972717285
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024823427200317383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021055221557617188
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020264387130737305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022832870483398438
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021680831909179688
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02091503143310547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021949052810668945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021198034286499023
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021270751953125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025164127349853516
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021482467651367188
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020729541778564453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0287015438079834
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022200822830200195
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0217130184173584
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02397465705871582
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020738601684570312
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03679513931274414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0209505558013916
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020520448684692383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020433664321899414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.029043912887573242
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02110147476196289
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022318363189697266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02125835418701172
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02651238441467285
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021193265914916992
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020875215530395508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02126169204711914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021930217742919922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02086639404296875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0212247371673584
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02270030975341797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02083587646484375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02414846420288086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020574331283569336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02324819564819336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02196526527404785
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020612001419067383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020792484283447266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022647857666015625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020714998245239258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02092432975769043
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026126623153686523
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03123784065246582
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02576613426208496
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.027691125869750977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02090597152709961
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02127981185913086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020279407501220703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022546052932739258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021834611892700195
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02088141441345215
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022257089614868164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02203083038330078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02069854736328125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02079939842224121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02146458625793457
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020596742630004883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021702289581298828
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020360946655273438
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02078557014465332
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020371198654174805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02587437629699707
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021135807037353516
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020795583724975586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02046036720275879
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020834922790527344
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021770477294921875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022483110427856445
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020867347717285156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02274799346923828
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020544052124023438
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.036097049713134766
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021178722381591797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020250558853149414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021317720413208008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02122974395751953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02138972282409668
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02178049087524414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02075958251953125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04391980171203613
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020497798919677734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02084803581237793
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02356433868408203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020528793334960938
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020945310592651367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020357370376586914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021027326583862305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020755767822265625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020300865173339844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021489858627319336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020632028579711914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021617889404296875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020845413208007812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020090579986572266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021523714065551758
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020570039749145508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02103710174560547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02045154571533203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020354509353637695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020626068115234375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021094322204589844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02480030059814453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0233151912689209
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021732330322265625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020549297332763672
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02041459083557129
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02077960968017578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02079939842224121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021828413009643555
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02051234245300293
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020794391632080078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021025657653808594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021697521209716797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02134084701538086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020879507064819336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021688461303710938
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02055048942565918
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02129840850830078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02120065689086914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0204315185546875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02074265480041504
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02170729637145996
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0211334228515625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020880937576293945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021399497985839844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02045583724975586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020735740661621094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02027297019958496
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020664215087890625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020899534225463867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020837068557739258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022405385971069336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021100521087646484
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021327733993530273
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0211181640625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0206143856048584
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020877838134765625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020669937133789062
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021340370178222656
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021870851516723633
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021240234375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020959138870239258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020719051361083984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022663593292236328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021176815032958984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02090597152709961
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06160736083984375
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.02490973472595215
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02207040786743164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020672082901000977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020657777786254883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02060103416442871
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02164292335510254
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024274349212646484
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021802902221679688
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02068781852722168
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020756959915161133
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021451473236083984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021193742752075195
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021031618118286133
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020868301391601562
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020938634872436523
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02156853675842285
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0890340805053711
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.020810365676879883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02069401741027832
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02109694480895996
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02064204216003418
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020640134811401367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02190089225769043
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022313594818115234
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020827293395996094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020777225494384766
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02057790756225586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020618200302124023
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021921396255493164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021591901779174805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020822763442993164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021103382110595703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021550893783569336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020989656448364258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020686864852905273
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021739959716796875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02137279510498047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023484468460083008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02236795425415039
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022136449813842773
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020761966705322266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02092599868774414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03622245788574219
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020491361618041992
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020737886428833008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020337343215942383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02380824089050293
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02342677116394043
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02321648597717285
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023012161254882812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023163557052612305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021125316619873047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02044820785522461
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021059513092041016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023244142532348633
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02078533172607422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023093223571777344
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02084803581237793
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020421743392944336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020320653915405273
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021206378936767578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02022552490234375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04222583770751953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020626544952392578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02110457420349121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020530223846435547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021197795867919922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0214998722076416
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021589279174804688
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020892620086669922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021019458770751953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022185087203979492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02061939239501953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020538330078125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02047133445739746
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021165132522583008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02132415771484375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021029949188232422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021352052688598633
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020653247833251953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.09012675285339355
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.022095203399658203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02159261703491211
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020410537719726562
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025386333465576172
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020770549774169922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022524356842041016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021509408950805664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021332740783691406
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020718097686767578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021143674850463867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02121877670288086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020907163619995117
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020853519439697266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020690202713012695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020275592803955078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021418333053588867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020214319229125977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020656108856201172
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02273082733154297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022893190383911133
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02294182777404785
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0247802734375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020505189895629883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021461009979248047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021088123321533203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021483182907104492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02080368995666504
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08524823188781738
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.020951032638549805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022954702377319336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02142930030822754
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02184915542602539
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020752429962158203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021211624145507812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020524263381958008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02198481559753418
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020483732223510742
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020522594451904297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022295236587524414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02068018913269043
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.18424177169799805
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 0.020888328552246094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02062225341796875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021542787551879883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021370887756347656
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021253585815429688
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021422863006591797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02105712890625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021104097366333008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02176690101623535
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020617246627807617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020857810974121094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025591135025024414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021161794662475586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021053552627563477
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021172761917114258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021039485931396484
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020668983459472656
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02081584930419922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02053689956665039
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021063566207885742
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020830392837524414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020786523818969727
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0209047794342041
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02060222625732422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0224001407623291
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020784616470336914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021056652069091797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020913124084472656
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020969867706298828
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021600961685180664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021401643753051758
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020751237869262695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020353317260742188
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021031856536865234
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021055936813354492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021431684494018555
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02207040786743164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021893024444580078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02166271209716797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022212505340576172
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025832653045654297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06211495399475098
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.022411584854125977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02129197120666504
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020982027053833008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02102947235107422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02187037467956543
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02165079116821289
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0254213809967041
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022416353225708008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02142024040222168
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02071070671081543
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02238607406616211
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020981788635253906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020853757858276367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021077394485473633
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02118682861328125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020903587341308594
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06094717979431152
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.03312540054321289
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020876407623291016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020821094512939453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021114587783813477
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020885705947875977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021210432052612305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0231325626373291
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020929574966430664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02043938636779785
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020853281021118164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02113056182861328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020673036575317383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0211334228515625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020894527435302734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021532773971557617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.35228681564331055
+c Number of propagation: 11
+c Number of splitting: 5
+c Consumed time: 0.020552396774291992
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06189894676208496
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.021181821823120117
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02231621742248535
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021392822265625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021156787872314453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02112436294555664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022082090377807617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0217134952545166
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021621227264404297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020894527435302734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020546674728393555
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02121877670288086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02090001106262207
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0206754207611084
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020606279373168945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021205902099609375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08726739883422852
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.020525693893432617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02150416374206543
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021549463272094727
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08962392807006836
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.02065896987915039
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021345853805541992
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022817373275756836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020962238311767578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020708799362182617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02048516273498535
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022269248962402344
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021037578582763672
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021672964096069336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0207216739654541
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06375575065612793
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.02175307273864746
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0216827392578125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021732091903686523
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06478452682495117
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.0208737850189209
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021670818328857422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02104353904724121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022057533264160156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02293562889099121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02080392837524414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02372431755065918
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021515369415283203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022153139114379883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020662307739257812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02057647705078125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02074456214904785
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020680904388427734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02106928825378418
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021094083786010742
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020856618881225586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02093982696533203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020615100860595703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02159261703491211
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0210723876953125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020749807357788086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022324085235595703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0217742919921875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021483182907104492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021265268325805664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02123236656188965
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021094322204589844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021322965621948242
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021018028259277344
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02048516273498535
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022127389907836914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06133770942687988
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.02500438690185547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.09447550773620605
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.04411935806274414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.031063079833984375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03851914405822754
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.053565025329589844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.053008317947387695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.060933828353881836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05829048156738281
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05886054039001465
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.054610252380371094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04538989067077637
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0496976375579834
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1205134391784668
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.03388214111328125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02928614616394043
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03695416450500488
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0355987548828125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.038190364837646484
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05707979202270508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.16134262084960938
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.03332066535949707
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04451870918273926
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.027401447296142578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025583982467651367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06539607048034668
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04697418212890625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.055947065353393555
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.034032344818115234
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05679774284362793
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03229045867919922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.053009748458862305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06566214561462402
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025364398956298828
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05891227722167969
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03947758674621582
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04948759078979492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.055556297302246094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0511322021484375
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06824731826782227
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05602669715881348
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06902217864990234
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05504894256591797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06252932548522949
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04824566841125488
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.057128190994262695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06447124481201172
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05874490737915039
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05951094627380371
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.21946978569030762
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.12422299385070801
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.06181478500366211
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05789446830749512
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06086850166320801
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05738210678100586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05979347229003906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.21448636054992676
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.05590367317199707
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.055655717849731445
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05890607833862305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05773591995239258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05823874473571777
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05956459045410156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05737900733947754
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06079530715942383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05661749839782715
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06763005256652832
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06267046928405762
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0653221607208252
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05597996711730957
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06425023078918457
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06369972229003906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05187821388244629
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04004669189453125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025371074676513672
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.09758138656616211
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.04832124710083008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.11624288558959961
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.022004365921020508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020922422409057617
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026023387908935547
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020931005477905273
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024097442626953125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0308837890625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05068492889404297
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.49118542671203613
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.04820442199707031
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.047875404357910156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.25774407386779785
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.03223848342895508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06860208511352539
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.10476803779602051
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.04619002342224121
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023466110229492188
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5096807479858398
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.03383898735046387
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.16393160820007324
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.03497934341430664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023203372955322266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05927467346191406
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02248525619506836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04040932655334473
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02193284034729004
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02357339859008789
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.20404410362243652
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 0.0560758113861084
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025559425354003906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03211808204650879
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.47648072242736816
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.40485572814941406
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.15306997299194336
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.025324583053588867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06182980537414551
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023571252822875977
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.036637067794799805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.15287327766418457
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.030947446823120117
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.037772417068481445
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05366921424865723
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1761329174041748
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.029549360275268555
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.20408415794372559
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.45339488983154297
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.03865861892700195
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020809650421142578
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08850717544555664
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.15379619598388672
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.0643160343170166
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.13805627822875977
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.02385544776916504
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05331087112426758
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03671145439147949
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.44091796875
+c Number of propagation: 10
+c Number of splitting: 5
+c Consumed time: 0.052520036697387695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023538589477539062
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.31807470321655273
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.05522608757019043
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023048877716064453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02255535125732422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03630709648132324
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05826616287231445
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.6369729042053223
+c Number of propagation: 8
+c Number of splitting: 3
+c Consumed time: 0.060863494873046875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0463712215423584
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05585074424743652
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06247138977050781
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1383523941040039
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.02138686180114746
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023546218872070312
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020674467086791992
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.12028002738952637
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.20910906791687012
+c Number of propagation: 4
+c Number of splitting: 3
+c Consumed time: 0.02277684211730957
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023659467697143555
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023849964141845703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03366422653198242
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022431612014770508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025357723236083984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.029498815536499023
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.07623457908630371
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023561954498291016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.033142805099487305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03464865684509277
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.031888484954833984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04103660583496094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02311110496520996
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0524752140045166
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022812604904174805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05258893966674805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03260612487792969
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04400014877319336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02101922035217285
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.033570289611816406
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026499509811401367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1681356430053711
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.05896186828613281
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05924367904663086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0367884635925293
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0227811336517334
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023275136947631836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08990478515625
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.0304872989654541
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021667003631591797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02533435821533203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020840883255004883
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.029737234115600586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5985171794891357
+c Number of propagation: 12
+c Number of splitting: 5
+c Consumed time: 0.036997318267822266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.07179450988769531
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.0357663631439209
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.17463064193725586
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.14151573181152344
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.022133350372314453
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.025068283081054688
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.053072452545166016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.4057736396789551
+c Number of propagation: 7
+c Number of splitting: 4
+c Consumed time: 0.02685403823852539
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.056947946548461914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06038999557495117
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05632948875427246
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.4458942413330078
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 0.2197265625
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.05985283851623535
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04790067672729492
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05605769157409668
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.9466555118560791
+c Number of propagation: 18
+c Number of splitting: 7
+c Consumed time: 0.045739173889160156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.028951644897460938
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.033652544021606445
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.052652597427368164
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03146028518676758
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.028126239776611328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05161237716674805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.026111125946044922
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05667400360107422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.10032010078430176
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.14587903022766113
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.03064894676208496
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023722171783447266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04470634460449219
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03410840034484863
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.022552013397216797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04392361640930176
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5700342655181885
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.048055171966552734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1288003921508789
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.061496734619140625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.062127113342285156
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.11851668357849121
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.3506777286529541
+c Number of propagation: 8
+c Number of splitting: 3
+c Consumed time: 0.02639150619506836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03461909294128418
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.054257869720458984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.26617980003356934
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.05835866928100586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05980682373046875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020905017852783203
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.023925304412841797
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.030192136764526367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0314483642578125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.032155513763427734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03653979301452637
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04953289031982422
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06108570098876953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04036211967468262
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06403446197509766
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06704902648925781
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06888914108276367
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03725242614746094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02732229232788086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.11339139938354492
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.02051091194152832
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.12390851974487305
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.05185341835021973
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06463265419006348
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024164676666259766
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05968308448791504
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.22747492790222168
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.0834658145904541
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.06025886535644531
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.2305138111114502
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.022432804107666016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.7027862071990967
+c Number of propagation: 14
+c Number of splitting: 5
+c Consumed time: 0.2139432430267334
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.2470698356628418
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.045478105545043945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04584336280822754
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.034272193908691406
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.030602693557739258
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5377559661865234
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.6394228935241699
+c Number of propagation: 11
+c Number of splitting: 4
+c Consumed time: 0.2013232707977295
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.05637383460998535
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.4711184501647949
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.05443072319030762
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.15878582000732422
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.11047840118408203
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.15462183952331543
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.41541314125061035
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.14023542404174805
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.045393943786621094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06348371505737305
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.024247169494628906
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05098390579223633
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08347582817077637
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.06718111038208008
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03607368469238281
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04038405418395996
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.031967878341674805
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.038550376892089844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04562711715698242
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.028783559799194336
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.2931792736053467
+c Number of propagation: 5
+c Number of splitting: 1
+c Consumed time: 0.5128602981567383
+c Number of propagation: 11
+c Number of splitting: 5
+c Consumed time: 0.75868821144104
+c Number of propagation: 15
+c Number of splitting: 6
+c Consumed time: 0.023289918899536133
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03339815139770508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.35190868377685547
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 0.03493833541870117
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.4492917060852051
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.5505757331848145
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.17139530181884766
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.02501845359802246
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.03274869918823242
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06686615943908691
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04269766807556152
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.17116045951843262
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.21922039985656738
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.023905277252197266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.9476757049560547
+c Number of propagation: 16
+c Number of splitting: 7
+c Consumed time: 0.04987525939941406
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1170198917388916
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.05250906944274902
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06314563751220703
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.7177317142486572
+c Number of propagation: 13
+c Number of splitting: 5
+c Consumed time: 0.029552936553955078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0634298324584961
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04296517372131348
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06176304817199707
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.21713852882385254
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.6135261058807373
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.20458197593688965
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.11448097229003906
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.14447927474975586
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.33406686782836914
+c Number of propagation: 7
+c Number of splitting: 5
+c Consumed time: 3.7885921001434326
+c Number of propagation: 69
+c Number of splitting: 22
+c Consumed time: 0.14794540405273438
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.14265775680541992
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.2941322326660156
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.060671091079711914
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5584392547607422
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 1.5579004287719727
+c Number of propagation: 27
+c Number of splitting: 11
+c Consumed time: 0.28759050369262695
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.028679370880126953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.42565441131591797
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.143693208694458
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.5432255268096924
+c Number of propagation: 12
+c Number of splitting: 4
+c Consumed time: 0.13442635536193848
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.1005253791809082
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.36461305618286133
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 0.6221845149993896
+c Number of propagation: 10
+c Number of splitting: 5
+c Consumed time: 0.05085325241088867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1293468475341797
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.610041618347168
+c Number of propagation: 10
+c Number of splitting: 7
+c Consumed time: 0.22397232055664062
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.04095053672790527
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05348563194274902
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.7567970752716064
+c Number of propagation: 16
+c Number of splitting: 8
+c Consumed time: 0.26236796379089355
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.02366948127746582
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.16877317428588867
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.7624802589416504
+c Number of propagation: 12
+c Number of splitting: 5
+c Consumed time: 0.546809196472168
+c Number of propagation: 10
+c Number of splitting: 8
+c Consumed time: 0.18515682220458984
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.8170738220214844
+c Number of propagation: 13
+c Number of splitting: 6
+c Consumed time: 0.030008792877197266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.09074282646179199
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.0223996639251709
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.19124078750610352
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.8788576126098633
+c Number of propagation: 12
+c Number of splitting: 5
+c Consumed time: 0.18646812438964844
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.43654680252075195
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.16612768173217773
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.031226634979248047
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.033329010009765625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.4738271236419678
+c Number of propagation: 7
+c Number of splitting: 4
+c Consumed time: 0.3598520755767822
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.4317641258239746
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.7658963203430176
+c Number of propagation: 14
+c Number of splitting: 7
+c Consumed time: 0.047835350036621094
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5324769020080566
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.05699038505554199
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5995047092437744
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.058232784271240234
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.18990707397460938
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.023829221725463867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.27585482597351074
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.0372922420501709
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5484676361083984
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.06284117698669434
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.530350923538208
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.2417435646057129
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.1388568878173828
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.29859256744384766
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.04056859016418457
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.15783143043518066
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.05933070182800293
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.11991667747497559
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.3248629570007324
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.06533503532409668
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05254340171813965
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5449397563934326
+c Number of propagation: 11
+c Number of splitting: 5
+c Consumed time: 0.23668766021728516
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.05880546569824219
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.26544618606567383
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.06209731101989746
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.14032602310180664
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.40684986114501953
+c Number of propagation: 6
+c Number of splitting: 5
+c Consumed time: 0.2924809455871582
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.021370887756347656
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05309343338012695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.031610727310180664
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05381894111633301
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.8327641487121582
+c Number of propagation: 13
+c Number of splitting: 6
+c Consumed time: 0.14652609825134277
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.18651175498962402
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.06821441650390625
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.29528021812438965
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.3466217517852783
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 0.02935957908630371
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02719855308532715
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.027109622955322266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05457115173339844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5348942279815674
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.0641624927520752
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02325749397277832
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0824129581451416
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.5747547149658203
+c Number of propagation: 10
+c Number of splitting: 6
+c Consumed time: 0.060497283935546875
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.18787455558776855
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.037905216217041016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021695852279663086
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02999138832092285
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.6301138401031494
+c Number of propagation: 14
+c Number of splitting: 6
+c Consumed time: 0.781883955001831
+c Number of propagation: 16
+c Number of splitting: 6
+c Consumed time: 0.0392308235168457
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.29442310333251953
+c Number of propagation: 5
+c Number of splitting: 1
+c Consumed time: 0.051520347595214844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 1.1678426265716553
+c Number of propagation: 18
+c Number of splitting: 8
+c Consumed time: 0.06219983100891113
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.021230459213256836
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.16545844078063965
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.5054714679718018
+c Number of propagation: 6
+c Number of splitting: 4
+c Consumed time: 0.042427778244018555
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.7556524276733398
+c Number of propagation: 13
+c Number of splitting: 8
+c Consumed time: 1.7102360725402832
+c Number of propagation: 36
+c Number of splitting: 15
+c Consumed time: 0.3156394958496094
+c Number of propagation: 8
+c Number of splitting: 3
+c Consumed time: 0.09814763069152832
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.38642191886901855
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.06321501731872559
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08349323272705078
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.16960597038269043
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.02512955665588379
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05013155937194824
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.028730154037475586
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.19617629051208496
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.11494302749633789
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.04548525810241699
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.3597280979156494
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 0.03808784484863281
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.06053352355957031
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.21114563941955566
+c Number of propagation: 5
+c Number of splitting: 1
+c Consumed time: 0.04700016975402832
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.057645320892333984
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05757331848144531
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.027405977249145508
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5432367324829102
+c Number of propagation: 9
+c Number of splitting: 3
+c Consumed time: 0.058368682861328125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02641916275024414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05268287658691406
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.45533180236816406
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.02649998664855957
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02342700958251953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.0384829044342041
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05286884307861328
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.5047483444213867
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.05999040603637695
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.05828976631164551
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 1.0886316299438477
+c Number of propagation: 18
+c Number of splitting: 7
+c Consumed time: 0.726123571395874
+c Number of propagation: 11
+c Number of splitting: 6
+c Consumed time: 0.026460647583007812
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.04425477981567383
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.41905879974365234
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.22980761528015137
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.14734125137329102
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.11340808868408203
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.08457088470458984
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 1.2926459312438965
+c Number of propagation: 24
+c Number of splitting: 10
+c Consumed time: 0.417464017868042
+c Number of propagation: 6
+c Number of splitting: 4
+c Consumed time: 0.0381016731262207
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.15802669525146484
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.625636100769043
+c Number of propagation: 11
+c Number of splitting: 6
+c Consumed time: 0.05519843101501465
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.48159074783325195
+c Number of propagation: 10
+c Number of splitting: 3
+c Consumed time: 0.11781859397888184
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.11279034614562988
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.34966206550598145
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.06347417831420898
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.3562347888946533
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.23401212692260742
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 0.753204345703125
+c Number of propagation: 11
+c Number of splitting: 6
+c Consumed time: 0.030846118927001953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.23495030403137207
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.11956238746643066
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.03547239303588867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.40738916397094727
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.6874186992645264
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.17011165618896484
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.6279253959655762
+c Number of propagation: 11
+c Number of splitting: 4
+c Consumed time: 0.5077595710754395
+c Number of propagation: 7
+c Number of splitting: 5
+c Consumed time: 0.6782505512237549
+c Number of propagation: 13
+c Number of splitting: 6
+c Consumed time: 0.17121076583862305
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.7203326225280762
+c Number of propagation: 11
+c Number of splitting: 5
+c Consumed time: 1.2641210556030273
+c Number of propagation: 25
+c Number of splitting: 10
+c Consumed time: 0.0307462215423584
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.19791197776794434
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.02136087417602539
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.9997901916503906
+c Number of propagation: 18
+c Number of splitting: 7
+c Consumed time: 1.081383466720581
+c Number of propagation: 18
+c Number of splitting: 8
+c Consumed time: 0.6690223217010498
+c Number of propagation: 11
+c Number of splitting: 4
+c Consumed time: 0.4113757610321045
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 0.8686535358428955
+c Number of propagation: 12
+c Number of splitting: 6
+c Consumed time: 0.2285914421081543
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.040088653564453125
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.14176630973815918
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.22146940231323242
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 1.4015507698059082
+c Number of propagation: 27
+c Number of splitting: 11
+c Consumed time: 0.9464802742004395
+c Number of propagation: 16
+c Number of splitting: 8
+c Consumed time: 0.024889230728149414
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.7502903938293457
+c Number of propagation: 11
+c Number of splitting: 5
+c Consumed time: 0.3680257797241211
+c Number of propagation: 7
+c Number of splitting: 5
+c Consumed time: 2.0036869049072266
+c Number of propagation: 32
+c Number of splitting: 16
+c Consumed time: 0.1225125789642334
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.7465436458587646
+c Number of propagation: 10
+c Number of splitting: 6
+c Consumed time: 0.19055390357971191
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.7603833675384521
+c Number of propagation: 12
+c Number of splitting: 6
+c Consumed time: 0.21525788307189941
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.8125259876251221
+c Number of propagation: 14
+c Number of splitting: 7
+c Consumed time: 1.16693115234375
+c Number of propagation: 25
+c Number of splitting: 11
+c Consumed time: 3.9606430530548096
+c Number of propagation: 85
+c Number of splitting: 34
+c Consumed time: 0.020558834075927734
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.020972251892089844
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.165327787399292
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.37585973739624023
+c Number of propagation: 12
+c Number of splitting: 7
+c Consumed time: 0.2141575813293457
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.43299031257629395
+c Number of propagation: 15
+c Number of splitting: 6
+c Consumed time: 0.26911497116088867
+c Number of propagation: 8
+c Number of splitting: 5
+c Consumed time: 0.10172629356384277
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.021334171295166016
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.9449143409729004
+c Number of propagation: 32
+c Number of splitting: 14
+c Consumed time: 0.12225651741027832
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.17927908897399902
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 0.334881067276001
+c Number of propagation: 10
+c Number of splitting: 6
+c Consumed time: 1.5007987022399902
+c Number of propagation: 52
+c Number of splitting: 20
+c Consumed time: 0.1636641025543213
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.062261343002319336
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.208390474319458
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.2613532543182373
+c Number of propagation: 8
+c Number of splitting: 5
+c Consumed time: 1.242203712463379
+c Number of propagation: 44
+c Number of splitting: 17
+c Consumed time: 0.30116963386535645
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.1451733112335205
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.22542595863342285
+c Number of propagation: 6
+c Number of splitting: 5
+c Consumed time: 0.5652003288269043
+c Number of propagation: 19
+c Number of splitting: 8
+c Consumed time: 0.2879066467285156
+c Number of propagation: 8
+c Number of splitting: 3
+c Consumed time: 0.021429777145385742
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.27977967262268066
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.12500715255737305
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.020911455154418945
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.15639305114746094
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.20683860778808594
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.35079216957092285
+c Number of propagation: 12
+c Number of splitting: 5
+c Consumed time: 0.6565098762512207
+c Number of propagation: 22
+c Number of splitting: 10
+c Consumed time: 0.02486443519592285
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08556580543518066
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.12007951736450195
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.08808517456054688
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.32214999198913574
+c Number of propagation: 11
+c Number of splitting: 4
+c Consumed time: 0.08810901641845703
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.7532026767730713
+c Number of propagation: 23
+c Number of splitting: 12
+c Consumed time: 0.09821581840515137
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.023220300674438477
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.25051450729370117
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.021067142486572266
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.46874284744262695
+c Number of propagation: 15
+c Number of splitting: 7
+c Consumed time: 0.3392353057861328
+c Number of propagation: 10
+c Number of splitting: 7
+c Consumed time: 0.3210258483886719
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.28334522247314453
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.8591539859771729
+c Number of propagation: 29
+c Number of splitting: 12
+c Consumed time: 0.08868217468261719
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.6722712516784668
+c Number of propagation: 20
+c Number of splitting: 11
+c Consumed time: 0.02093958854675293
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.31722211837768555
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 2.0810606479644775
+c Number of propagation: 66
+c Number of splitting: 26
+c Consumed time: 0.3357062339782715
+c Number of propagation: 11
+c Number of splitting: 4
+c Consumed time: 0.5735516548156738
+c Number of propagation: 19
+c Number of splitting: 8
+c Consumed time: 0.42242908477783203
+c Number of propagation: 14
+c Number of splitting: 5
+c Consumed time: 0.2758498191833496
+c Number of propagation: 8
+c Number of splitting: 6
+c Consumed time: 0.21941232681274414
+c Number of propagation: 7
+c Number of splitting: 4
+c Consumed time: 0.42415738105773926
+c Number of propagation: 13
+c Number of splitting: 7
+c Consumed time: 0.44554567337036133
+c Number of propagation: 15
+c Number of splitting: 6
+c Consumed time: 0.27808713912963867
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.6450798511505127
+c Number of propagation: 21
+c Number of splitting: 10
+c Consumed time: 0.022087574005126953
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.4247446060180664
+c Number of propagation: 14
+c Number of splitting: 6
+c Consumed time: 0.339526891708374
+c Number of propagation: 11
+c Number of splitting: 5
+c Consumed time: 0.1255345344543457
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.27918553352355957
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.1894512176513672
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 0.17926359176635742
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 0.02082657814025879
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.1445326805114746
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.39669346809387207
+c Number of propagation: 12
+c Number of splitting: 7
+c Consumed time: 0.12537837028503418
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.31478071212768555
+c Number of propagation: 10
+c Number of splitting: 5
+c Consumed time: 0.13391590118408203
+c Number of propagation: 5
+c Number of splitting: 1
+c Consumed time: 0.19649887084960938
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 0.49265027046203613
+c Number of propagation: 16
+c Number of splitting: 8
+c Consumed time: 0.49793386459350586
+c Number of propagation: 18
+c Number of splitting: 6
+c Consumed time: 0.4757392406463623
+c Number of propagation: 15
+c Number of splitting: 8
+c Consumed time: 0.3455829620361328
+c Number of propagation: 11
+c Number of splitting: 5
+c Consumed time: 0.29108190536499023
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.1634690761566162
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.02119612693786621
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.16827392578125
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.42227673530578613
+c Number of propagation: 14
+c Number of splitting: 6
+c Consumed time: 0.2826046943664551
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.5920839309692383
+c Number of propagation: 20
+c Number of splitting: 8
+c Consumed time: 0.1478569507598877
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.0884103775024414
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.7926852703094482
+c Number of propagation: 26
+c Number of splitting: 11
+c Consumed time: 0.30761265754699707
+c Number of propagation: 9
+c Number of splitting: 6
+c Consumed time: 0.3602256774902344
+c Number of propagation: 11
+c Number of splitting: 6
+c Consumed time: 0.3295619487762451
+c Number of propagation: 10
+c Number of splitting: 6
+c Consumed time: 2.399416208267212
+c Number of propagation: 75
+c Number of splitting: 30
+c Consumed time: 0.12424206733703613
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.08894157409667969
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.17691802978515625
+c Number of propagation: 5
+c Number of splitting: 4
+c Consumed time: 0.08471179008483887
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.25100278854370117
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.3220829963684082
+c Number of propagation: 11
+c Number of splitting: 4
+c Consumed time: 0.5677809715270996
+c Number of propagation: 19
+c Number of splitting: 8
+c Consumed time: 0.7124135494232178
+c Number of propagation: 24
+c Number of splitting: 9
+c Consumed time: 0.16120243072509766
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.3897819519042969
+c Number of propagation: 11
+c Number of splitting: 8
+c Consumed time: 0.5052905082702637
+c Number of propagation: 16
+c Number of splitting: 8
+c Consumed time: 0.2805502414703369
+c Number of propagation: 8
+c Number of splitting: 5
+c Consumed time: 0.5627310276031494
+c Number of propagation: 18
+c Number of splitting: 8
+c Consumed time: 0.3029978275299072
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.10041570663452148
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.5697727203369141
+c Number of propagation: 19
+c Number of splitting: 11
+c Consumed time: 0.6234042644500732
+c Number of propagation: 20
+c Number of splitting: 9
+c Consumed time: 0.19307732582092285
+c Number of propagation: 6
+c Number of splitting: 4
+c Consumed time: 0.17580151557922363
+c Number of propagation: 5
+c Number of splitting: 4
+c Consumed time: 0.5689334869384766
+c Number of propagation: 18
+c Number of splitting: 9
+c Consumed time: 0.14271020889282227
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.1662154197692871
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.1542036533355713
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.1350574493408203
+c Number of propagation: 5
+c Number of splitting: 1
+c Consumed time: 0.12308931350708008
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.4727764129638672
+c Number of propagation: 16
+c Number of splitting: 5
+c Consumed time: 0.44170713424682617
+c Number of propagation: 14
+c Number of splitting: 6
+c Consumed time: 0.022608518600463867
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.08716320991516113
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.2656822204589844
+c Number of propagation: 8
+c Number of splitting: 5
+c Consumed time: 0.16209053993225098
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.20534992218017578
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.0973975658416748
+c Number of propagation: 3
+c Number of splitting: 2
+c Consumed time: 0.6138720512390137
+c Number of propagation: 19
+c Number of splitting: 9
+c Consumed time: 1.9728212356567383
+c Number of propagation: 59
+c Number of splitting: 23
+c Consumed time: 1.0855827331542969
+c Number of propagation: 32
+c Number of splitting: 12
+c Consumed time: 0.02719855308532715
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.02099323272705078
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.204115629196167
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.15761590003967285
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.25281524658203125
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.06215786933898926
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.06165170669555664
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 1.3484456539154053
+c Number of propagation: 45
+c Number of splitting: 16
+c Consumed time: 0.23472285270690918
+c Number of propagation: 8
+c Number of splitting: 3
+c Consumed time: 0.46244144439697266
+c Number of propagation: 16
+c Number of splitting: 6
+c Consumed time: 0.21521949768066406
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.44646501541137695
+c Number of propagation: 15
+c Number of splitting: 6
+c Consumed time: 0.5236327648162842
+c Number of propagation: 16
+c Number of splitting: 6
+c Consumed time: 0.09312772750854492
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.34108662605285645
+c Number of propagation: 10
+c Number of splitting: 5
+c Consumed time: 0.08744215965270996
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.14174246788024902
+c Number of propagation: 4
+c Number of splitting: 3
+c Consumed time: 0.304898738861084
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.06096625328063965
+c Number of propagation: 2
+c Number of splitting: 1
+c Consumed time: 0.47092461585998535
+c Number of propagation: 15
+c Number of splitting: 6
+c Consumed time: 0.5385537147521973
+c Number of propagation: 15
+c Number of splitting: 7
+c Consumed time: 0.6439573764801025
+c Number of propagation: 20
+c Number of splitting: 8
+c Consumed time: 0.12305474281311035
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 2.144416570663452
+c Number of propagation: 73
+c Number of splitting: 26
+c Consumed time: 1.6592755317687988
+c Number of propagation: 58
+c Number of splitting: 21
+c Consumed time: 0.24682283401489258
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.22086310386657715
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 0.5970547199249268
+c Number of propagation: 18
+c Number of splitting: 7
+c Consumed time: 0.10244917869567871
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.020870447158813477
+c Number of propagation: 1
+c Number of splitting: 0
+c Consumed time: 0.2797982692718506
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.46485280990600586
+c Number of propagation: 15
+c Number of splitting: 8
+c Consumed time: 0.1372969150543213
+c Number of propagation: 4
+c Number of splitting: 3
+c Consumed time: 0.4608933925628662
+c Number of propagation: 16
+c Number of splitting: 7
+c Consumed time: 1.1936984062194824
+c Number of propagation: 42
+c Number of splitting: 18
+c Consumed time: 0.7341957092285156
+c Number of propagation: 24
+c Number of splitting: 10
+c Consumed time: 0.1857140064239502
+c Number of propagation: 6
+c Number of splitting: 2
+c Consumed time: 8.812115669250488
+c Number of propagation: 310
+c Number of splitting: 110
+c Consumed time: 0.9253106117248535
+c Number of propagation: 29
+c Number of splitting: 13
+c Consumed time: 1.146376371383667
+c Number of propagation: 40
+c Number of splitting: 19
+c Consumed time: 1.2249155044555664
+c Number of propagation: 42
+c Number of splitting: 16
+c Consumed time: 0.32558727264404297
+c Number of propagation: 10
+c Number of splitting: 6
+c Consumed time: 0.7228484153747559
+c Number of propagation: 21
+c Number of splitting: 10
+c Consumed time: 1.1348230838775635
+c Number of propagation: 25
+c Number of splitting: 11
+c Consumed time: 0.8661887645721436
+c Number of propagation: 11
+c Number of splitting: 6
+c Consumed time: 1.490349292755127
+c Number of propagation: 23
+c Number of splitting: 10
+c Consumed time: 0.30974698066711426
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 2.1231656074523926
+c Number of propagation: 32
+c Number of splitting: 13
+c Consumed time: 0.4562516212463379
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 4.172105073928833
+c Number of propagation: 73
+c Number of splitting: 28
+c Consumed time: 4.142212390899658
+c Number of propagation: 77
+c Number of splitting: 26
+c Consumed time: 2.4102048873901367
+c Number of propagation: 42
+c Number of splitting: 19
+c Consumed time: 0.17665624618530273
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.5913686752319336
+c Number of propagation: 12
+c Number of splitting: 7
+c Consumed time: 0.5094423294067383
+c Number of propagation: 14
+c Number of splitting: 7
+c Consumed time: 0.6824548244476318
+c Number of propagation: 21
+c Number of splitting: 11
+c Consumed time: 0.21906757354736328
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.16283154487609863
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 1.218817949295044
+c Number of propagation: 39
+c Number of splitting: 16
+c Consumed time: 1.0125937461853027
+c Number of propagation: 33
+c Number of splitting: 15
+c Consumed time: 0.42310476303100586
+c Number of propagation: 14
+c Number of splitting: 7
+c Consumed time: 1.684119701385498
+c Number of propagation: 58
+c Number of splitting: 23
+c Consumed time: 0.45533204078674316
+c Number of propagation: 14
+c Number of splitting: 7
+c Consumed time: 0.6265981197357178
+c Number of propagation: 19
+c Number of splitting: 10
+c Consumed time: 0.7085628509521484
+c Number of propagation: 21
+c Number of splitting: 10
+c Consumed time: 0.4418907165527344
+c Number of propagation: 15
+c Number of splitting: 7
+c Consumed time: 0.445631742477417
+c Number of propagation: 15
+c Number of splitting: 6
+c Consumed time: 0.6875982284545898
+c Number of propagation: 21
+c Number of splitting: 10
+c Consumed time: 0.2754786014556885
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.6178898811340332
+c Number of propagation: 18
+c Number of splitting: 10
+c Consumed time: 0.5968019962310791
+c Number of propagation: 20
+c Number of splitting: 8
+c Consumed time: 0.801081657409668
+c Number of propagation: 29
+c Number of splitting: 12
+c Consumed time: 6.656518936157227
+c Number of propagation: 225
+c Number of splitting: 75
+c Consumed time: 0.8487956523895264
+c Number of propagation: 30
+c Number of splitting: 12
+c Consumed time: 2.1908621788024902
+c Number of propagation: 73
+c Number of splitting: 29
+c Consumed time: 0.3781101703643799
+c Number of propagation: 12
+c Number of splitting: 7
+c Consumed time: 0.5367405414581299
+c Number of propagation: 18
+c Number of splitting: 9
+c Consumed time: 0.30367612838745117
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.2110750675201416
+c Number of propagation: 6
+c Number of splitting: 5
+c Consumed time: 0.6951920986175537
+c Number of propagation: 21
+c Number of splitting: 14
+c Consumed time: 0.08338737487792969
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 1.7579660415649414
+c Number of propagation: 56
+c Number of splitting: 23
+c Consumed time: 0.40784645080566406
+c Number of propagation: 13
+c Number of splitting: 6
+c Consumed time: 0.3326606750488281
+c Number of propagation: 12
+c Number of splitting: 5
+c Consumed time: 0.12018561363220215
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 0.30255818367004395
+c Number of propagation: 9
+c Number of splitting: 6
+c Consumed time: 0.316941499710083
+c Number of propagation: 10
+c Number of splitting: 5
+c Consumed time: 0.1457509994506836
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.8592801094055176
+c Number of propagation: 29
+c Number of splitting: 11
+c Consumed time: 4.266819000244141
+c Number of propagation: 155
+c Number of splitting: 60
+c Consumed time: 2.639979600906372
+c Number of propagation: 89
+c Number of splitting: 32
+c Consumed time: 0.7021796703338623
+c Number of propagation: 23
+c Number of splitting: 9
+c Consumed time: 0.9252054691314697
+c Number of propagation: 30
+c Number of splitting: 16
+c Consumed time: 0.8596787452697754
+c Number of propagation: 30
+c Number of splitting: 11
+c Consumed time: 0.33603501319885254
+c Number of propagation: 10
+c Number of splitting: 8
+c Consumed time: 0.6610946655273438
+c Number of propagation: 22
+c Number of splitting: 11
+c Consumed time: 0.7984507083892822
+c Number of propagation: 26
+c Number of splitting: 11
+c Consumed time: 0.3890833854675293
+c Number of propagation: 14
+c Number of splitting: 5
+c Consumed time: 0.24569177627563477
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 1.4278819561004639
+c Number of propagation: 39
+c Number of splitting: 19
+c Consumed time: 0.8959298133850098
+c Number of propagation: 16
+c Number of splitting: 10
+c Consumed time: 0.40088486671447754
+c Number of propagation: 8
+c Number of splitting: 3
+c Consumed time: 1.4130220413208008
+c Number of propagation: 26
+c Number of splitting: 12
+c Consumed time: 6.914541721343994
+c Number of propagation: 132
+c Number of splitting: 43
+c Consumed time: 0.2409534454345703
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 1.2447545528411865
+c Number of propagation: 27
+c Number of splitting: 14
+c Consumed time: 4.5542824268341064
+c Number of propagation: 90
+c Number of splitting: 26
+c Consumed time: 0.4966549873352051
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 1.571589469909668
+c Number of propagation: 27
+c Number of splitting: 16
+c Consumed time: 0.26320648193359375
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 31.2847101688385
+c Number of propagation: 565
+c Number of splitting: 188
+c Consumed time: 4.024023771286011
+c Number of propagation: 54
+c Number of splitting: 20
+c Consumed time: 11.984979152679443
+c Number of propagation: 175
+c Number of splitting: 61
+c Consumed time: 1.4179210662841797
+c Number of propagation: 27
+c Number of splitting: 11
+c Consumed time: 0.3633441925048828
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 2.5550789833068848
+c Number of propagation: 43
+c Number of splitting: 16
+c Consumed time: 1.7125942707061768
+c Number of propagation: 31
+c Number of splitting: 13
+c Consumed time: 0.3740673065185547
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 11.972805500030518
+c Number of propagation: 216
+c Number of splitting: 77
+c Consumed time: 2.3689675331115723
+c Number of propagation: 46
+c Number of splitting: 20
+c Consumed time: 0.3697969913482666
+c Number of propagation: 4
+c Number of splitting: 3
+c Consumed time: 1.2106714248657227
+c Number of propagation: 14
+c Number of splitting: 11
+c Consumed time: 1.2297420501708984
+c Number of propagation: 21
+c Number of splitting: 11
+c Consumed time: 0.937654972076416
+c Number of propagation: 14
+c Number of splitting: 6
+c Consumed time: 1.597398042678833
+c Number of propagation: 30
+c Number of splitting: 14
+c Consumed time: 0.8988373279571533
+c Number of propagation: 15
+c Number of splitting: 6
+c Consumed time: 0.5923275947570801
+c Number of propagation: 12
+c Number of splitting: 7
+c Consumed time: 3.7353975772857666
+c Number of propagation: 62
+c Number of splitting: 25
+c Consumed time: 1.894623041152954
+c Number of propagation: 35
+c Number of splitting: 13
+c Consumed time: 5.556963920593262
+c Number of propagation: 109
+c Number of splitting: 40
+c Consumed time: 1.5669219493865967
+c Number of propagation: 32
+c Number of splitting: 14
+c Consumed time: 1.6296637058258057
+c Number of propagation: 26
+c Number of splitting: 13
+c Consumed time: 0.5360634326934814
+c Number of propagation: 12
+c Number of splitting: 4
+c Consumed time: 0.6853077411651611
+c Number of propagation: 12
+c Number of splitting: 5
+c Consumed time: 0.9982216358184814
+c Number of propagation: 16
+c Number of splitting: 10
+c Consumed time: 0.11888408660888672
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 1.4679105281829834
+c Number of propagation: 29
+c Number of splitting: 12
+c Consumed time: 1.4306416511535645
+c Number of propagation: 24
+c Number of splitting: 11
+c Consumed time: 0.6095931529998779
+c Number of propagation: 10
+c Number of splitting: 5
+c Consumed time: 1.3607637882232666
+c Number of propagation: 23
+c Number of splitting: 9
+c Consumed time: 1.5887601375579834
+c Number of propagation: 30
+c Number of splitting: 11
+c Consumed time: 0.5899627208709717
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 0.31064844131469727
+c Number of propagation: 4
+c Number of splitting: 2
+c Consumed time: 17.00673246383667
+c Number of propagation: 322
+c Number of splitting: 122
+c Consumed time: 1.3829267024993896
+c Number of propagation: 23
+c Number of splitting: 12
+c Consumed time: 0.8076379299163818
+c Number of propagation: 14
+c Number of splitting: 6
+c Consumed time: 1.8862698078155518
+c Number of propagation: 32
+c Number of splitting: 13
+c Consumed time: 719.8712246417999
+c Number of propagation: 22047
+c Number of splitting: 7426
+c Consumed time: 4.539600372314453
+c Number of propagation: 149
+c Number of splitting: 58
+c Consumed time: 0.526677131652832
+c Number of propagation: 18
+c Number of splitting: 9
+c Consumed time: 0.2919626235961914
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.08527994155883789
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.3372344970703125
+c Number of propagation: 10
+c Number of splitting: 6
+c Consumed time: 0.25153613090515137
+c Number of propagation: 8
+c Number of splitting: 4
+c Consumed time: 0.6264798641204834
+c Number of propagation: 20
+c Number of splitting: 11
+c Consumed time: 0.29474949836730957
+c Number of propagation: 10
+c Number of splitting: 4
+c Consumed time: 0.44655656814575195
+c Number of propagation: 14
+c Number of splitting: 8
+c Consumed time: 0.611083984375
+c Number of propagation: 20
+c Number of splitting: 10
+c Consumed time: 0.558929443359375
+c Number of propagation: 19
+c Number of splitting: 7
+c Consumed time: 0.2853434085845947
+c Number of propagation: 9
+c Number of splitting: 6
+c Consumed time: 0.19796442985534668
+c Number of propagation: 7
+c Number of splitting: 3
+c Consumed time: 1.1845834255218506
+c Number of propagation: 39
+c Number of splitting: 17
+c Consumed time: 0.33190393447875977
+c Number of propagation: 10
+c Number of splitting: 5
+c Consumed time: 0.3442714214324951
+c Number of propagation: 12
+c Number of splitting: 5
+c Consumed time: 0.5723247528076172
+c Number of propagation: 19
+c Number of splitting: 11
+c Consumed time: 4.46671724319458
+c Number of propagation: 159
+c Number of splitting: 58
+c Consumed time: 0.7023825645446777
+c Number of propagation: 24
+c Number of splitting: 10
+c Consumed time: 0.14641213417053223
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.40506792068481445
+c Number of propagation: 11
+c Number of splitting: 8
+c Consumed time: 1.9409382343292236
+c Number of propagation: 70
+c Number of splitting: 24
+c Consumed time: 0.15334868431091309
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 1.5571010112762451
+c Number of propagation: 47
+c Number of splitting: 17
+c Consumed time: 0.9898216724395752
+c Number of propagation: 36
+c Number of splitting: 13
+c Consumed time: 0.635643720626831
+c Number of propagation: 22
+c Number of splitting: 10
+c Consumed time: 0.9169683456420898
+c Number of propagation: 31
+c Number of splitting: 14
+c Consumed time: 1.1513159275054932
+c Number of propagation: 41
+c Number of splitting: 17
+c Consumed time: 0.19356966018676758
+c Number of propagation: 6
+c Number of splitting: 4
+c Consumed time: 2.1417503356933594
+c Number of propagation: 74
+c Number of splitting: 31
+c Consumed time: 1.0133891105651855
+c Number of propagation: 31
+c Number of splitting: 14
+c Consumed time: 0.4239482879638672
+c Number of propagation: 14
+c Number of splitting: 6
+c Consumed time: 0.21478939056396484
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 35.45475935935974
+c Number of propagation: 1070
+c Number of splitting: 367
+c Consumed time: 1.027451992034912
+c Number of propagation: 27
+c Number of splitting: 10
+c Consumed time: 0.477891206741333
+c Number of propagation: 13
+c Number of splitting: 7
+c Consumed time: 0.4345386028289795
+c Number of propagation: 15
+c Number of splitting: 7
+c Consumed time: 0.6044237613677979
+c Number of propagation: 20
+c Number of splitting: 8
+c Consumed time: 2.499692916870117
+c Number of propagation: 81
+c Number of splitting: 32
+c Consumed time: 20.38019561767578
+c Number of propagation: 670
+c Number of splitting: 236
+c Consumed time: 0.837723970413208
+c Number of propagation: 26
+c Number of splitting: 14
+c Consumed time: 0.3598599433898926
+c Number of propagation: 11
+c Number of splitting: 8
+c Consumed time: 1.2753710746765137
+c Number of propagation: 41
+c Number of splitting: 17
+c Consumed time: 0.5411903858184814
+c Number of propagation: 17
+c Number of splitting: 10
+c Consumed time: 0.6385126113891602
+c Number of propagation: 20
+c Number of splitting: 8
+c Consumed time: 0.838132381439209
+c Number of propagation: 26
+c Number of splitting: 14
+c Consumed time: 0.282642126083374
+c Number of propagation: 8
+c Number of splitting: 7
+c Consumed time: 1.5569195747375488
+c Number of propagation: 56
+c Number of splitting: 20
+c Consumed time: 0.08481788635253906
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.23082351684570312
+c Number of propagation: 8
+c Number of splitting: 3
+c Consumed time: 0.5181283950805664
+c Number of propagation: 18
+c Number of splitting: 7
+c Consumed time: 1.1130893230438232
+c Number of propagation: 41
+c Number of splitting: 15
+c Consumed time: 4.333345174789429
+c Number of propagation: 159
+c Number of splitting: 57
+c Consumed time: 0.7771356105804443
+c Number of propagation: 27
+c Number of splitting: 10
+c Consumed time: 3.5782337188720703
+c Number of propagation: 133
+c Number of splitting: 49
+c Consumed time: 0.5935893058776855
+c Number of propagation: 18
+c Number of splitting: 7
+c Consumed time: 0.2752962112426758
+c Number of propagation: 9
+c Number of splitting: 5
+c Consumed time: 5.086297035217285
+c Number of propagation: 188
+c Number of splitting: 66
+c Consumed time: 0.5636308193206787
+c Number of propagation: 16
+c Number of splitting: 8
+c Consumed time: 1.880028486251831
+c Number of propagation: 65
+c Number of splitting: 24
+c Consumed time: 0.16530990600585938
+c Number of propagation: 5
+c Number of splitting: 3
+c Consumed time: 0.3816385269165039
+c Number of propagation: 12
+c Number of splitting: 7
+c Consumed time: 0.5122780799865723
+c Number of propagation: 15
+c Number of splitting: 8
+c Consumed time: 1.4509170055389404
+c Number of propagation: 50
+c Number of splitting: 19
+c Consumed time: 0.4192938804626465
+c Number of propagation: 14
+c Number of splitting: 7
+c Consumed time: 0.5356893539428711
+c Number of propagation: 17
+c Number of splitting: 9
+c Consumed time: 0.19135260581970215
+c Number of propagation: 6
+c Number of splitting: 3
+c Consumed time: 0.739534854888916
+c Number of propagation: 24
+c Number of splitting: 9
+c Consumed time: 2.2540011405944824
+c Number of propagation: 69
+c Number of splitting: 29
+c Consumed time: 2.2433204650878906
+c Number of propagation: 83
+c Number of splitting: 29
+c Consumed time: 0.0910942554473877
+c Number of propagation: 3
+c Number of splitting: 1
+c Consumed time: 0.14857077598571777
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 0.3210122585296631
+c Number of propagation: 10
+c Number of splitting: 6
+c Consumed time: 0.27333879470825195
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.8523156642913818
+c Number of propagation: 26
+c Number of splitting: 12
+c Consumed time: 0.7855684757232666
+c Number of propagation: 23
+c Number of splitting: 11
+c Consumed time: 0.7157583236694336
+c Number of propagation: 24
+c Number of splitting: 11
+c Consumed time: 3.354902982711792
+c Number of propagation: 114
+c Number of splitting: 42
+c Consumed time: 0.9492795467376709
+c Number of propagation: 31
+c Number of splitting: 12
+c Consumed time: 0.5228071212768555
+c Number of propagation: 18
+c Number of splitting: 7
+c Consumed time: 5.5921149253845215
+c Number of propagation: 198
+c Number of splitting: 70
+c Consumed time: 0.8512275218963623
+c Number of propagation: 27
+c Number of splitting: 12
+c Consumed time: 0.27403688430786133
+c Number of propagation: 9
+c Number of splitting: 4
+c Consumed time: 0.6226131916046143
+c Number of propagation: 18
+c Number of splitting: 9
+c Consumed time: 0.14588189125061035
+c Number of propagation: 5
+c Number of splitting: 2
+c Consumed time: 4.613041877746582
+c Number of propagation: 179
+c Number of splitting: 62
+c Consumed time: 2.365889549255371
+c Number of propagation: 83
+c Number of splitting: 28
+c Consumed time: 6.669761419296265
+c Number of propagation: 255
+c Number of splitting: 91
+c Consumed time: 1.5446722507476807
+c Number of propagation: 55
+c Number of splitting: 23
+c Consumed time: 1.0837295055389404
+c Number of propagation: 32
+c Number of splitting: 16
+c Consumed time: 0.6160004138946533
+c Number of propagation: 22
+c Number of splitting: 10
+c Consumed time: 1.497746467590332
+c Number of propagation: 55
+c Number of splitting: 22
+c Consumed time: 4.202956199645996
+c Number of propagation: 160
+c Number of splitting: 59
+c Consumed time: 120.26729941368103
+c Number of propagation: 4144
+c Number of splitting: 1437
+c Consumed time: 2.7353150844573975
+c Number of propagation: 99
+c Number of splitting: 39
+c Consumed time: 5.83894157409668
+c Number of propagation: 211
+c Number of splitting: 69
+c Consumed time: 2.1931965351104736
+c Number of propagation: 80
+c Number of splitting: 31
+c Consumed time: 3.1672253608703613
+c Number of propagation: 120
+c Number of splitting: 46
+c Consumed time: 2.1098618507385254
+c Number of propagation: 74
+c Number of splitting: 27
+c Consumed time: 3.2814626693725586
+c Number of propagation: 116
+c Number of splitting: 47
+c Consumed time: 0.27713489532470703
+c Number of propagation: 9
+c Number of splitting: 6
+c Consumed time: 0.5624709129333496
+c Number of propagation: 20
+c Number of splitting: 9
+c Consumed time: 1.2137701511383057
+c Number of propagation: 42
+c Number of splitting: 18
+c Consumed time: 4.782779932022095
+c Number of propagation: 181
+c Number of splitting: 64
+c Consumed time: 1.8649084568023682
+c Number of propagation: 68
+c Number of splitting: 24
+c Consumed time: 2.2498655319213867
+c Number of propagation: 76
+c Number of splitting: 32
+c Consumed time: 1.7449581623077393
+c Number of propagation: 64
+c Number of splitting: 25
+c Consumed time: 1.2782554626464844
+c Number of propagation: 44
+c Number of splitting: 19
+c Consumed time: 17.37108588218689
+c Number of propagation: 490
+c Number of splitting: 178
+c Consumed time: 19.845717906951904
+c Number of propagation: 606
+c Number of splitting: 189
+c Consumed time: 1.5245187282562256
+c Number of propagation: 52
+c Number of splitting: 22
+c Consumed time: 1.4173262119293213
+c Number of propagation: 40
+c Number of splitting: 18
+c Consumed time: 3.4375078678131104
+c Number of propagation: 127
+c Number of splitting: 41
+c Consumed time: 2.4715194702148438
+c Number of propagation: 82
+c Number of splitting: 32
+c Consumed time: 4.700407028198242
+c Number of propagation: 158
+c Number of splitting: 62
+c Consumed time: 1.7429683208465576
+c Number of propagation: 61
+c Number of splitting: 29
+c Consumed time: 1.6853067874908447
+c Number of propagation: 60
+c Number of splitting: 23
+c Consumed time: 20.767157793045044
+c Number of propagation: 738
+c Number of splitting: 236
+c Consumed time: 0.40437960624694824
+c Number of propagation: 13
+c Number of splitting: 8
+c Consumed time: 1.5291781425476074
+c Number of propagation: 47
+c Number of splitting: 24
+c Consumed time: 26.007596731185913
+c Number of propagation: 848
+c Number of splitting: 261
+c Consumed time: 2.141704797744751
+c Number of propagation: 67
+c Number of splitting: 29
+c Consumed time: 1.7121236324310303
+c Number of propagation: 62
+c Number of splitting: 25
+c Consumed time: 230.71975708007812
+c Number of propagation: 8452
+c Number of splitting: 2841
+c Consumed time: 8.543899774551392
+c Number of propagation: 300
+c Number of splitting: 105
+c Consumed time: 9.941736221313477
+c Number of propagation: 369
+c Number of splitting: 125
+c Consumed time: 5.19530463218689
+c Number of propagation: 192
+c Number of splitting: 64
+c Consumed time: 2.5189828872680664
+c Number of propagation: 92
+c Number of splitting: 39
+c Consumed time: 1.1996793746948242
+c Number of propagation: 37
+c Number of splitting: 18
+c Consumed time: 1.2965247631072998
+c Number of propagation: 47
+c Number of splitting: 21
+c Consumed time: 2.6387593746185303
+c Number of propagation: 94
+c Number of splitting: 38
+c Consumed time: 0.9704725742340088
+c Number of propagation: 33
+c Number of splitting: 14
+c Consumed time: 1.6979176998138428
+c Number of propagation: 58
+c Number of splitting: 21
+c Consumed time: 0.5774440765380859
+c Number of propagation: 19
+c Number of splitting: 9
+c Consumed time: 4.034449100494385
+c Number of propagation: 141
+c Number of splitting: 53
+c Consumed time: 0.4381086826324463
+c Number of propagation: 13
+c Number of splitting: 8
+c Consumed time: 1.4450724124908447
+c Number of propagation: 48
+c Number of splitting: 22
+c Consumed time: 0.48929452896118164
+c Number of propagation: 16
+c Number of splitting: 12
+c Consumed time: 0.9958796501159668
+c Number of propagation: 35
+c Number of splitting: 16
+c Consumed time: 7.635160684585571
+c Number of propagation: 289
+c Number of splitting: 102
+c Consumed time: 0.46785664558410645
+c Number of propagation: 15
+c Number of splitting: 8
+c Consumed time: 1.5418875217437744
+c Number of propagation: 52
+c Number of splitting: 25
+c Consumed time: 0.4402778148651123
+c Number of propagation: 15
+c Number of splitting: 7
+c Consumed time: 1.9236140251159668
+c Number of propagation: 69
+c Number of splitting: 32
+c Consumed time: 6.672644376754761
+c Number of propagation: 239
+c Number of splitting: 90
+c Consumed time: 7.887426137924194
+c Number of propagation: 302
+c Number of splitting: 97
+c Consumed time: 0.7824597358703613
+c Number of propagation: 26
+c Number of splitting: 14
+c Consumed time: 2.6152052879333496
+c Number of propagation: 97
+c Number of splitting: 40
+c Consumed time: 1.845226764678955
+c Number of propagation: 55
+c Number of splitting: 21
+c Consumed time: 4.648342847824097
+c Number of propagation: 119
+c Number of splitting: 46
+c Consumed time: 0.669992208480835
+c Number of propagation: 13
+c Number of splitting: 10
+c Consumed time: 0.7331197261810303
+c Number of propagation: 19
+c Number of splitting: 10
+c Consumed time: 3.6259541511535645
+c Number of propagation: 95
+c Number of splitting: 38
+c Consumed time: 1.7038729190826416
+c Number of propagation: 50
+c Number of splitting: 23
+c Consumed time: 1.3513646125793457
+c Number of propagation: 44
+c Number of splitting: 17
+c Consumed time: 2.202565908432007
+c Number of propagation: 72
+c Number of splitting: 27
+c Consumed time: 7.081989526748657
+c Number of propagation: 252
+c Number of splitting: 95
+c Consumed time: 1.0471863746643066
+c Number of propagation: 35
+c Number of splitting: 16
+c Consumed time: 1.268866777420044
+c Number of propagation: 40
+c Number of splitting: 18
+c Consumed time: 5.069664001464844
+c Number of propagation: 172
+c Number of splitting: 61
+c Consumed time: 55.85053992271423
+c Number of propagation: 1824
+c Number of splitting: 545
+c Consumed time: 7.886385917663574
+c Number of propagation: 230
+c Number of splitting: 77
+c Consumed time: 0.9882285594940186
+c Number of propagation: 25
+c Number of splitting: 15
+c Consumed time: 6.9353601932525635
+c Number of propagation: 222
+c Number of splitting: 68
+c Consumed time: 4.914630651473999
+c Number of propagation: 176
+c Number of splitting: 63
+c Consumed time: 5.952961206436157
+c Number of propagation: 186
+c Number of splitting: 71
+c Consumed time: 5.564323902130127
+c Number of propagation: 182
+c Number of splitting: 60
+c Consumed time: 1.576932430267334
+c Number of propagation: 53
+c Number of splitting: 21
+c Consumed time: 3.3036656379699707
+c Number of propagation: 121
+c Number of splitting: 49
+c Consumed time: 3.3313093185424805
+c Number of propagation: 101
+c Number of splitting: 41
+c Consumed time: 3.4046123027801514
+c Number of propagation: 107
+c Number of splitting: 41
+c Consumed time: 1.8720500469207764
+c Number of propagation: 61
+c Number of splitting: 28
+c Consumed time: 197.0660834312439
+c Number of propagation: 6565
+c Number of splitting: 2275
+c Consumed time: 1.1305065155029297
+c Number of propagation: 36
+c Number of splitting: 14
+c Consumed time: 0.779473066329956
+c Number of propagation: 24
+c Number of splitting: 14
+c Consumed time: 1.111591100692749
+c Number of propagation: 32
+c Number of splitting: 17
+c Consumed time: 0.8701965808868408
+c Number of propagation: 29
+c Number of splitting: 14
+c Consumed time: 5.031707763671875
+c Number of propagation: 178
+c Number of splitting: 65
+c Consumed time: 12.026965856552124
+c Number of propagation: 428
+c Number of splitting: 157
+c Consumed time: 0.7289853096008301
+c Number of propagation: 27
+c Number of splitting: 12
+c Consumed time: 6.992882966995239
+c Number of propagation: 238
+c Number of splitting: 89
+c Consumed time: 4.464914321899414
+c Number of propagation: 162
+c Number of splitting: 64
+c Consumed time: 2.3760499954223633
+c Number of propagation: 83
+c Number of splitting: 35
+c Consumed time: 3.7829208374023438
+c Number of propagation: 144
+c Number of splitting: 51
+c Consumed time: 15.92754602432251
+c Number of propagation: 633
+c Number of splitting: 162
+c Consumed time: 0.6184821128845215
+c Number of propagation: 19
+c Number of splitting: 14
+c Consumed time: 10.698210716247559
+c Number of propagation: 370
+c Number of splitting: 135
+c Consumed time: 0.9696125984191895
+c Number of propagation: 36
+c Number of splitting: 16
+c Consumed time: 1.991746425628662
+c Number of propagation: 67
+c Number of splitting: 25
+c Consumed time: 1.5021135807037354
+c Number of propagation: 51
+c Number of splitting: 21
+c Consumed time: 5.791929483413696
+c Number of propagation: 228
+c Number of splitting: 78
+c Consumed time: 13.937780380249023
+c Number of propagation: 549
+c Number of splitting: 177
+c Consumed time: 2.5498523712158203
+c Number of propagation: 94
+c Number of splitting: 37
+c Consumed time: 1.9757583141326904
+c Number of propagation: 70
+c Number of splitting: 27
+c Consumed time: 0.9668140411376953
+c Number of propagation: 31
+c Number of splitting: 14
+c Consumed time: 0.6163556575775146
+c Number of propagation: 17
+c Number of splitting: 10
+c Consumed time: 2.522671699523926
+c Number of propagation: 96
+c Number of splitting: 37
+c Consumed time: 0.6213352680206299
+c Number of propagation: 21
+c Number of splitting: 11
+c Consumed time: 2.5462865829467773
+c Number of propagation: 88
+c Number of splitting: 34
+c Consumed time: 15.095681190490723
+c Number of propagation: 559
+c Number of splitting: 201
+c Consumed time: 2.0810394287109375
+c Number of propagation: 78
+c Number of splitting: 33
+c Consumed time: 1.1003844738006592
+c Number of propagation: 39
+c Number of splitting: 16
+c Consumed time: 1.217820644378662
+c Number of propagation: 43
+c Number of splitting: 18
+c Consumed time: 1.9757862091064453
+c Number of propagation: 69
+c Number of splitting: 27
+c Consumed time: 1.3947207927703857
+c Number of propagation: 44
+c Number of splitting: 22
+c Consumed time: 0.8615033626556396
+c Number of propagation: 27
+c Number of splitting: 14
+c Consumed time: 2.566739559173584
+c Number of propagation: 91
+c Number of splitting: 36
+c Consumed time: 3.702410936355591
+c Number of propagation: 115
+c Number of splitting: 47
+c Consumed time: 0.9712293148040771
+c Number of propagation: 33
+c Number of splitting: 14
+c Consumed time: 0.5724935531616211
+c Number of propagation: 17
+c Number of splitting: 11
+c Consumed time: 0.7413063049316406
+c Number of propagation: 22
+c Number of splitting: 12
+c Consumed time: 17.3077392578125
+c Number of propagation: 583
+c Number of splitting: 199
+c Consumed time: 7.984220504760742
+c Number of propagation: 278
+c Number of splitting: 96
+c Consumed time: 1.481513500213623
+c Number of propagation: 43
+c Number of splitting: 18
+c Consumed time: 2.530510663986206
+c Number of propagation: 84
+c Number of splitting: 31
+c Consumed time: 0.5045459270477295
+c Number of propagation: 16
+c Number of splitting: 9
+c Consumed time: 4.757234334945679
+c Number of propagation: 173
+c Number of splitting: 67
+c Consumed time: 88.28155851364136
+c Number of propagation: 3314
+c Number of splitting: 1108
+c Consumed time: 0.3869590759277344
+c Number of propagation: 13
+c Number of splitting: 8
+c Consumed time: 1.972167730331421
+c Number of propagation: 73
+c Number of splitting: 31
+c Consumed time: 10.515944242477417
+c Number of propagation: 400
+c Number of splitting: 124
+c Consumed time: 0.603743314743042
+c Number of propagation: 21
+c Number of splitting: 9
+c Consumed time: 1.034250259399414
+c Number of propagation: 35
+c Number of splitting: 14
+c Consumed time: 0.3107008934020996
+c Number of propagation: 10
+c Number of splitting: 7
+c Consumed time: 0.7008907794952393
+c Number of propagation: 26
+c Number of splitting: 10
+c Consumed time: 593.0721895694733
+c Number of propagation: 23483
+c Number of splitting: 8022
+c Consumed time: 3.866642713546753
+c Number of propagation: 138
+c Number of splitting: 53
+c Consumed time: 8.828638315200806
+c Number of propagation: 336
+c Number of splitting: 117
+c Consumed time: 0.6745164394378662
+c Number of propagation: 22
+c Number of splitting: 9
+c Consumed time: 8.740821123123169
+c Number of propagation: 313
+c Number of splitting: 108
+c Consumed time: 5.93333888053894
+c Number of propagation: 216
+c Number of splitting: 78
+c Consumed time: 1.8112564086914062
+c Number of propagation: 63
+c Number of splitting: 25
+c Consumed time: 41.41545081138611
+c Number of propagation: 1485
+c Number of splitting: 524
+c Consumed time: 4.252549648284912
+c Number of propagation: 151
+c Number of splitting: 54
+c Consumed time: 13.975454092025757
+c Number of propagation: 501
+c Number of splitting: 172
+c Consumed time: 22.925864696502686
+c Number of propagation: 818
+c Number of splitting: 285
+c Consumed time: 1.317110300064087
+c Number of propagation: 47
+c Number of splitting: 20
+c Consumed time: 0.27705860137939453
+c Number of propagation: 9
+c Number of splitting: 6
+c Consumed time: 42.082459926605225
+c Number of propagation: 1558
+c Number of splitting: 538
+c Consumed time: 1.4841301441192627
+c Number of propagation: 50
+c Number of splitting: 19
+c Consumed time: 0.4475419521331787
+c Number of propagation: 15
+c Number of splitting: 7
+c Consumed time: 1.2328457832336426
+c Number of propagation: 42
+c Number of splitting: 18
+c Consumed time: 0.5326664447784424
+c Number of propagation: 18
+c Number of splitting: 10
+c Consumed time: 2.867431402206421
+c Number of propagation: 107
+c Number of splitting: 43
+c Consumed time: 1.3087518215179443
+c Number of propagation: 46
+c Number of splitting: 19
+c Consumed time: 5.3550286293029785
+c Number of propagation: 213
+c Number of splitting: 80
+c Consumed time: 11.687769174575806
+c Number of propagation: 434
+c Number of splitting: 160
+c Consumed time: 3.562783718109131
+c Number of propagation: 131
+c Number of splitting: 47
+c Consumed time: 1.1223626136779785
+c Number of propagation: 35
+c Number of splitting: 20
+c Consumed time: 6.889880657196045
+c Number of propagation: 267
+c Number of splitting: 85
+c Consumed time: 2.835123062133789
+c Number of propagation: 101
+c Number of splitting: 39
+c Consumed time: 2.7746758460998535
+c Number of propagation: 100
+c Number of splitting: 34
+c Consumed time: 5.734582424163818
+c Number of propagation: 204
+c Number of splitting: 83
+c Consumed time: 0.6485216617584229
+c Number of propagation: 19
+c Number of splitting: 10
+c Consumed time: 0.8201084136962891
+c Number of propagation: 29
+c Number of splitting: 13
+c Consumed time: 1.6866753101348877
+c Number of propagation: 62
+c Number of splitting: 26
+c Consumed time: 2.430799961090088
+c Number of propagation: 87
+c Number of splitting: 39
+c Consumed time: 2.3102259635925293
+c Number of propagation: 77
+c Number of splitting: 31
+c Consumed time: 0.9307713508605957
+c Number of propagation: 31
+c Number of splitting: 17
+c Consumed time: 0.5692245960235596
+c Number of propagation: 20
+c Number of splitting: 9
+c Consumed time: 9.874371528625488
+c Number of propagation: 336
+c Number of splitting: 121
+c Consumed time: 0.5710625648498535
+c Number of propagation: 20
+c Number of splitting: 10
+c Consumed time: 46.97654986381531
+c Number of propagation: 1812
+c Number of splitting: 589
+c Consumed time: 0.8662445545196533
+c Number of propagation: 29
+c Number of splitting: 16
+c Consumed time: 1.3988797664642334
+c Number of propagation: 52
+c Number of splitting: 22
+c Consumed time: 10.082528829574585
+c Number of propagation: 359
+c Number of splitting: 122
+c Consumed time: 1.3580608367919922
+c Number of propagation: 49
+c Number of splitting: 21
+c Consumed time: 30.775536060333252
+c Number of propagation: 1189
+c Number of splitting: 358
+c Consumed time: 7.744451999664307
+c Number of propagation: 283
+c Number of splitting: 95
+c Consumed time: 2.8195643424987793
+c Number of propagation: 102
+c Number of splitting: 36
+c Consumed time: 1.4411516189575195
+c Number of propagation: 50
+c Number of splitting: 21
+c Consumed time: 0.6738095283508301
+c Number of propagation: 23
+c Number of splitting: 12
+c Consumed time: 0.5414955615997314
+c Number of propagation: 18
+c Number of splitting: 11
+c Consumed time: 0.6400980949401855
+c Number of propagation: 21
+c Number of splitting: 13
+c Consumed time: 7.4549853801727295
+c Number of propagation: 262
+c Number of splitting: 92
+c Consumed time: 1.1551601886749268
+c Number of propagation: 39
+c Number of splitting: 21
+c Consumed time: 30.69570016860962
+c Number of propagation: 1195
+c Number of splitting: 392
+c Consumed time: 5.636457443237305
+c Number of propagation: 209
+c Number of splitting: 75
+c Consumed time: 0.8521542549133301
+c Number of propagation: 28
+c Number of splitting: 15
+c Consumed time: 4.291173696517944
+c Number of propagation: 151
+c Number of splitting: 53
+c Consumed time: 1.5538792610168457
+c Number of propagation: 58
+c Number of splitting: 24
+c Consumed time: 1.3108105659484863
+c Number of propagation: 25
+c Number of splitting: 11
+c Consumed time: 0.6154019832611084
+c Number of propagation: 16
+c Number of splitting: 9
+c Consumed time: 1.7142326831817627
+c Number of propagation: 48
+c Number of splitting: 19
+c Consumed time: 4.020591974258423
+c Number of propagation: 147
+c Number of splitting: 51
