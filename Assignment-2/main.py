@@ -44,8 +44,8 @@ def create_sudoku_matrix(f, size):
   return sudoku_matrix.astype(int)
 
 file_name = 'test.txt'
-if len(sys.argv) > 2:
-  file_name = sys.argv[2]
+if len(sys.argv) > 3:
+  file_name = sys.argv[3]
 
 sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
 print(sudoku_matrix)
@@ -190,8 +190,9 @@ elif sys.argv[1] == 'MODEL2':
   #print constraints
 
 class Solver:
-  def __init__(self, variables, constraints):
+  def __init__(self, variables, constraints, fl_propagate=True):
     self.variables, self.constraints = variables, constraints
+    self.fl_propagate = fl_propagate
 
   def __str__(self):
     string = []
@@ -206,6 +207,7 @@ class Solver:
     for domain in self.variables.values():
       if not self.is_atomic(domain):
         return False
+
     return True
 
   def is_unsatisfied(self):
@@ -213,6 +215,11 @@ class Solver:
       if len(domain) == 0:
         #print('Unsatisfied: len("%s") = 0' % (name))
         return True
+      elif self.is_atomic(domain):
+        var = next(iter(domain))
+        for constraint in self.constraints[name]:
+          if self.is_atomic(self.variables[constraint]) and var in self.variables[constraint]:
+            return True
     return False
 
   def is_atomic(self, domain):
@@ -256,16 +263,19 @@ class Solver:
     """
     Chooses the variable to split
     """
-    smallest_domain_len = 81
+    smallest_domain_len = 9
     smallest_domain_name = []
     for name in sorted(self.variables.keys()):
       domain = self.variables[name]
       #print ('name', name)      
       #print ('len', len(domain))
-      if len(domain) > 1 and smallest_domain_len > len(domain):
-        smallest_domain_name = name
-        smallest_domain_len = len(domain)
+      if len(domain) > 1:
         print('Splitting "%s" with a domain %s' % (name, domain))
+        return name
+      #if len(domain) > 1 and smallest_domain_len > len(domain):
+      #  smallest_domain_name = name
+      #  smallest_domain_len = len(domain)
+      #  print('Splitting "%s" with a domain %s' % (name, domain))
     
     return smallest_domain_name
 
@@ -276,7 +286,8 @@ class Solver:
     print(self)
     # Propagates fixed variables
     print('Initial domain size:', self.domain_space_size())
-    self.propagate()
+    if self.fl_propagate:
+      self.propagate()
     print('Domain size after fixed variables propagation:', self.domain_space_size())
     print(self)
     if self.is_happy():
@@ -296,15 +307,16 @@ class Solver:
 
     decisionStack = []
     while stack and not self.is_happy():
-      print('Decision stack:', [(vName, val) for vName, val, _ in decisionStack])
-      print('Stack:', [(vName, val) for vName, val, _ in stack])
+      #print('Decision stack:', [(vName, val) for vName, val, _ in decisionStack])
+      #print('Stack:', [(vName, val) for vName, val, _ in stack])
       vName, val, worldState = stack.pop()
       self.variables[vName] = {val}
       #print('Setting "%s" to %d' % (vName, val))
       ##print('In the stack:', [(vName, val) for vName, val, _ in stack[-5:]])
       decisionStack.append((vName, val, worldState))
       ##print('In the decision stack:', [(vName, val) for vName, val, _ in decisionStack[-5:]])
-      self.propagate()
+      if self.fl_propagate:
+        self.propagate()
 
       # If it's unsatisfied solution. Then we need to backtrack.
       if self.is_unsatisfied():
@@ -322,7 +334,7 @@ class Solver:
         for val in sorted(self.variables[vName]):
           stack.append((vName, val, worldState))
 
-solver = Solver(variables, constraints)
+solver = Solver(variables, constraints, True if sys.argv[2] == 'PROP_ON' else False)
 t1 = time.time()
 solver.solve()
 print('Consumed time:', (time.time() - t1))
@@ -334,7 +346,19 @@ def fill_sudoku_model1(sudoku, solution):
       if sudoku[i, j] == 0:
         sudoku[i, j] = next(iter(solution['%d,%d' % (i, j)]))
 
+def fill_sudoku_model2(sudoku, solution):
+  size, _ = sudoku.shape
+  for i in range(1, size + 1):
+    for j in range(size):
+      sudoku_cell = next(iter(solution['%d,%dc' % (i, j)]))
+      k = sudoku_cell // size
+      m = sudoku_cell % size
+      if sudoku[k, m] == 0:
+        sudoku[k, m] = i
+
 print(solver.domain_space_size())
 if sys.argv[1] == 'MODEL1':
   fill_sudoku_model1(sudoku_matrix, solver.variables)
+else:
+  fill_sudoku_model2(sudoku_matrix, solver.variables)
 print(sudoku_matrix)
