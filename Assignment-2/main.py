@@ -100,7 +100,7 @@ def preprocess_model2(sudoku):
     for j in range(size):
       fixedValue = sudoku_matrix[i, j]
       if fixedValue != 0:
-        cellName = '%d,%d' % (i, j)
+        cellName = i * size + j #'%d,%d' % (i, j)
         variables['%d,%dc' % (fixedValue, j)] = {cellName}
         variables['%d,%dr' % (fixedValue, i)] = {cellName}
         boxId = (i // 3) * (size // 3) + j // 3
@@ -113,18 +113,18 @@ def preprocess_model2(sudoku):
       varNameB = '%d,%db' % (i, j)
       if varNameC not in variables:
         # j specifies column, k specifies row
-        variables[varNameC] = {'%d,%d' % (k, j) for k in range(size)}
+        variables[varNameC] = {k * size + j for k in range(size)}
 
       if varNameR not in variables:
         # j specifies row, k specifies column
-        variables[varNameR] = {'%d,%d' % (j, k) for k in range(size)}
+        variables[varNameR] = {j * size + k for k in range(size)}
 
       if varNameB not in variables:
         # j specifies box
         boxColStart = j * 3 % size
         boxRowStart = (j * 3 // size) * 3
-        variables[varNameB] = {'%d,%d' % (m, k) for k in range(boxColStart, boxColStart + 3)
-                                                for m in range(boxRowStart, boxRowStart + 3)}
+        variables[varNameB] = {m * size + k for k in range(boxColStart, boxColStart + 3)
+                                            for m in range(boxRowStart, boxRowStart + 3)}
         print(variables[varNameB])
 
   allConstraints = set(variables.keys())
@@ -141,7 +141,11 @@ def preprocess_model2(sudoku):
       for k in range(j // 3, size, 3):
         eqConstraintC.add('%d,%db' % (i, k))
 
-      constraints[varNameC] = list(allConstraints.difference(eqConstraintC))
+      constraintC = allConstraints.difference(eqConstraintC)
+      constraintC = constraintC.difference({'%d,%dc' % (k, m) for k in range(1, size + 1)
+                                                              for m in range(size) if m != j})
+
+      constraints[varNameC] = list(constraintC)
 
       varNameR = '%d,%dr' % (i, j)
       eqConstraintR = {varNameR}
@@ -151,7 +155,11 @@ def preprocess_model2(sudoku):
       for k in range((j // 3) * (size // 3), (j // 3) * (size // 3) + 3):
         eqConstraintR.add('%d,%db' % (i, k))
 
-      constraints[varNameR] = list(allConstraints.difference(eqConstraintR))
+      constraintR = allConstraints.difference(eqConstraintR)
+      constraintR = constraintR.difference({'%d,%dr' % (k, m) for k in range(1, size + 1)
+                                                              for m in range(size) if m != j})
+
+      constraints[varNameR] = list(constraintR)
 
       varNameB = '%d,%db' % (i, j)
       eqConstraintB = {varNameB}
@@ -161,7 +169,17 @@ def preprocess_model2(sudoku):
         eqConstraintB.add('%d,%dr' % (i, k))
       for k in range(boxColStart, boxColStart + 3):
         eqConstraintB.add('%d,%dc' % (i, k))
-      constraints[varNameB] = list(allConstraints.difference(eqConstraintB))
+      constraintB = allConstraints.difference(eqConstraintB)
+      constraintB = constraintB.difference({'%d,%dr' % (k, m) for k in range(1, size + 1)
+                                                              for m in range(boxRowStart)})
+      constraintB = constraintB.difference({'%d,%dr' % (k, m) for k in range(1, size + 1)
+                                                              for m in range(boxRowStart + 3, size)})
+      constraintB = constraintB.difference({'%d,%dc' % (k, m) for k in range(1, size + 1)
+                                                              for m in range(boxColStart)})
+      constraintB = constraintB.difference({'%d,%dc' % (k, m) for k in range(1, size + 1)
+                                                              for m in range(boxColStart + 3, size)})
+
+      constraints[varNameB] = list(constraintB)
   return variables, constraints
 
 if sys.argv[1] == 'MODEL1':
