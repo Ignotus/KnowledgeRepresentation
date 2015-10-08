@@ -182,6 +182,7 @@ def preprocess_model2(sudoku):
       constraints[varNameB] = list(constraintB)
   return variables, constraints
 
+
 if sys.argv[1] == 'MODEL1':
   variables, constraints = preprocess_model1(sudoku_matrix)
   #print constraints
@@ -226,6 +227,7 @@ class Solver:
     return len(domain) == 1
 
   def propagate(self):
+    self.propagations = self.propagations + 1
     print('Propagating')
     newAtomics = []
     for vName, vDomain in self.variables.items():
