@@ -351,9 +351,9 @@ solver = Solver(variables, constraints,
                 1 if sys.argv[3] == 'SPLIT_1' else 2)
 t1 = time.time()
 solver.solve()
-print('Consumed time:', (time.time() - t1))
-print('Number of propagation:', solver.num_propagation)
-print('Number of splitting:', solver.num_splitting)
+print('c Consumed time:', (time.time() - t1))
+print('c Number of propagation:', solver.num_propagation)
+print('c Number of splitting:', solver.num_splitting)
 print('Solution:', solver)
 
 def fill_sudoku_model1(sudoku, solution):
