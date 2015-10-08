@@ -168,13 +168,14 @@ def preprocess_model2(sudoku, size):
 
 variables, constraints = preprocess_model1(sudoku_matrix)
 #print constraints
-variables, constraints = preprocess_model2(sudoku_matrix,9)
+#variables, constraints = preprocess_model2(sudoku_matrix,9)
 #print constraints
 
 class Solver:
   def __init__(self, variables, constraints):
     self.variables, self.constraints = variables, constraints
-
+    self.propagations = 0
+    
   def __str__(self):
     string = []
     for name, domain in solver.variables.items():
@@ -201,6 +202,7 @@ class Solver:
     return len(domain) == 1
 
   def propagate(self):
+    self.propagations = self.propagations + 1
     print('Propagating')
     newAtomics = []
     for vName, vDomain in self.variables.items():
