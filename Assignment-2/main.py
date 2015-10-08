@@ -47,6 +47,7 @@ file_name = 'test.txt'
 if len(sys.argv) > 4:
   file_name = sys.argv[4]
 
+print('Reading from', file_name)
 sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
 print(sudoku_matrix)
 

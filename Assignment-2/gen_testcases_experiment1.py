@@ -5,7 +5,7 @@ import copy
 fullSudoku = open('testFull.txt', 'r')
 board = next(fullSudoku)
 for i in range(1, 72):
-    for m in range(1000):
+    for m in range(200):
         boardC = [board[k] for k in range(len(board) - 1)]
         indexes = np.arange(len(board) - 1)
         np.random.shuffle(indexes)
