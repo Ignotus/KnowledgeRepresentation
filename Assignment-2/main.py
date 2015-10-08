@@ -48,7 +48,7 @@ if len(sys.argv) > 2:
   file_name = sys.argv[2]
 
 sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
-print(sudoku_matrix)
+#print(sudoku_matrix)
 
 def preprocess_model1(sudoku):
   """
@@ -194,6 +194,7 @@ class Solver:
   def __init__(self, variables, constraints):
     self.variables, self.constraints = variables, constraints
     self.propagations = 0
+    self.splitnumber = 0
     
   def __str__(self):
     string = []
@@ -222,7 +223,7 @@ class Solver:
 
   def propagate(self):
     self.propagations = self.propagations + 1
-    print('Propagating')
+    #print('Propagating')
     newAtomics = []
     for vName, vDomain in self.variables.items():
       if not self.is_atomic(vDomain):
@@ -259,6 +260,7 @@ class Solver:
     """
     Chooses the variable to split
     """
+    self.splitnumber = self.splitnumber + 1
     smallest_domain_len = 81
     smallest_domain_name = []
     for name in sorted(self.variables.keys()):
@@ -268,7 +270,7 @@ class Solver:
       if len(domain) > 1 and smallest_domain_len > len(domain):
         smallest_domain_name = name
         smallest_domain_len = len(domain)
-        print('Splitting "%s" with a domain %s' % (name, domain))
+        #print('Splitting "%s" with a domain %s' % (name, domain))
     
     return smallest_domain_name
 
@@ -276,12 +278,12 @@ class Solver:
     # Else -> Sh~~ happens
 
   def solve(self):
-    print(self)
+    #print(self)
     # Propagates fixed variables
-    print('Initial domain size:', self.domain_space_size())
+    #print('Initial domain size:', self.domain_space_size())
     self.propagate()
-    print('Domain size after fixed variables propagation:', self.domain_space_size())
-    print(self)
+    #print('Domain size after fixed variables propagation:', self.domain_space_size())
+    #print(self)
     if self.is_happy():
       return
 
@@ -299,8 +301,8 @@ class Solver:
 
     decisionStack = []
     while stack and not self.is_happy():
-      print('Decision stack:', [(vName, val) for vName, val, _ in decisionStack])
-      print('Stack:', [(vName, val) for vName, val, _ in stack])
+      #print('Decision stack:', [(vName, val) for vName, val, _ in decisionStack])
+      #print('Stack:', [(vName, val) for vName, val, _ in stack])
       vName, val, worldState = stack.pop()
       self.variables[vName] = {val}
       #print('Setting "%s" to %d' % (vName, val))
@@ -313,7 +315,7 @@ class Solver:
       if self.is_unsatisfied():
         # If it's the last child then pop a parent (because a parent
         # is not satisfied as well).
-        print('Unpropagate')
+        #print('Unpropagate')
         vName, _, undoState = decisionStack.pop()
         while stack and decisionStack and (stack[-1][0] != vName):
           vName, _, undoState = decisionStack.pop()
@@ -325,11 +327,21 @@ class Solver:
         for val in sorted(self.variables[vName]):
           stack.append((vName, val, worldState))
 
+
 solver = Solver(variables, constraints)
 t1 = time.time()
 solver.solve()
+prop = solver.propagations
+split = solver.splitnumber
+f = open('sudoku/Results/result.txt', 'w')
+f.write(str(time.time() - t1))
+f.write("\n")
+f.write(str(prop))
+f.write("\n")
+f.write(str(split)) 
 print('Consumed time:', (time.time() - t1))
 print('Solution:', solver)
+f.close()
 
 def fill_sudoku_model1(sudoku, solution):
   for i in range(sudoku.shape[0]):
@@ -337,7 +349,7 @@ def fill_sudoku_model1(sudoku, solution):
       if sudoku[i, j] == 0:
         sudoku[i, j] = next(iter(solution['%d,%d' % (i, j)]))
 
-print(solver.domain_space_size())
+#print(solver.domain_space_size())
 if sys.argv[1] == 'MODEL1':
   fill_sudoku_model1(sudoku_matrix, solver.variables)
-print(sudoku_matrix)
+#print(sudoku_matrix)
