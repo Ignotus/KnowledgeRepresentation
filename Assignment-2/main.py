@@ -44,8 +44,8 @@ def create_sudoku_matrix(f, size):
   return sudoku_matrix.astype(int)
 
 file_name = 'test.txt'
-if len(sys.argv) > 3:
-  file_name = sys.argv[3]
+if len(sys.argv) > 4:
+  file_name = sys.argv[4]
 
 sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
 print(sudoku_matrix)
@@ -191,9 +191,12 @@ elif sys.argv[1] == 'MODEL2':
   #print constraints
 
 class Solver:
-  def __init__(self, variables, constraints, fl_propagate=True):
+  def __init__(self, variables, constraints, fl_propagate=True, fl_split=1):
     self.variables, self.constraints = variables, constraints
     self.fl_propagate = fl_propagate
+    self.fl_split = fl_split
+    self.num_propagation = 0
+    self.num_splitting = 0
 
   def __str__(self):
     string = []
@@ -227,7 +230,7 @@ class Solver:
     return len(domain) == 1
 
   def propagate(self):
-    self.propagations = self.propagations + 1
+    self.num_propagation += 1
     print('Propagating')
     newAtomics = []
     for vName, vDomain in self.variables.items():
@@ -265,19 +268,26 @@ class Solver:
     """
     Chooses the variable to split
     """
+    self.num_splitting += 1
     smallest_domain_len = 9
     smallest_domain_name = []
-    for name in sorted(self.variables.keys()):
-      domain = self.variables[name]
-      #print ('name', name)      
-      #print ('len', len(domain))
-      if len(domain) > 1:
-        print('Splitting "%s" with a domain %s' % (name, domain))
-        return name
-      #if len(domain) > 1 and smallest_domain_len > len(domain):
-      #  smallest_domain_name = name
-      #  smallest_domain_len = len(domain)
-      #  print('Splitting "%s" with a domain %s' % (name, domain))
+    if self.fl_split == 1:
+      for name in sorted(self.variables.keys()):
+        domain = self.variables[name]
+        #print ('name', name)      
+        #print ('len', len(domain))
+        if len(domain) > 1:
+          print('Splitting "%s" with a domain %s' % (name, domain))
+          return name
+    else:
+      for name in sorted(self.variables.keys()):
+        domain = self.variables[name]
+        #print ('name', name)      
+        #print ('len', len(domain))
+        if len(domain) > 1 and smallest_domain_len > len(domain):
+          smallest_domain_name = name
+          smallest_domain_len = len(domain)
+          print('Splitting "%s" with a domain %s' % (name, domain))
     
     return smallest_domain_name
 
@@ -324,7 +334,7 @@ class Solver:
       if self.is_unsatisfied():
         # If it's the last child then pop a parent (because a parent
         # is not satisfied as well).
-        print('Unpropagate')
+        #print('Unpropagate')
         vName, _, undoState = decisionStack.pop()
         while stack and decisionStack and (stack[-1][0] != vName):
           vName, _, undoState = decisionStack.pop()
@@ -336,10 +346,14 @@ class Solver:
         for val in sorted(self.variables[vName]):
           stack.append((vName, val, worldState))
 
-solver = Solver(variables, constraints, True if sys.argv[2] == 'PROP_ON' else False)
+solver = Solver(variables, constraints,
+                True if sys.argv[2] == 'PROP_ON' else False,
+                1 if sys.argv[3] == 'SPLIT_1' else 2)
 t1 = time.time()
 solver.solve()
 print('Consumed time:', (time.time() - t1))
+print('Number of propagation:', solver.num_propagation)
+print('Number of splitting:', solver.num_splitting)
 print('Solution:', solver)
 
 def fill_sudoku_model1(sudoku, solution):
