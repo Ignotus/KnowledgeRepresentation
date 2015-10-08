@@ -44,9 +44,10 @@ def create_sudoku_matrix(f, size):
   return sudoku_matrix.astype(int)
 
 file_name = 'test.txt'
-if len(sys.argv) > 2:
-  file_name = sys.argv[2]
+if len(sys.argv) > 4:
+  file_name = sys.argv[4]
 
+print('Reading from', file_name)
 sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
 #print(sudoku_matrix)
 
@@ -191,11 +192,14 @@ elif sys.argv[1] == 'MODEL2':
   #print constraints
 
 class Solver:
-  def __init__(self, variables, constraints):
+  def __init__(self, variables, constraints, fl_propagate=True, fl_split=1):
     self.variables, self.constraints = variables, constraints
-    self.propagations = 0
-    self.splitnumber = 0
-    
+
+    self.fl_propagate = fl_propagate
+    self.fl_split = fl_split
+    self.num_propagation = 0
+    self.num_splitting = 0
+
   def __str__(self):
     string = []
     for name, domain in solver.variables.items():
@@ -209,6 +213,7 @@ class Solver:
     for domain in self.variables.values():
       if not self.is_atomic(domain):
         return False
+
     return True
 
   def is_unsatisfied(self):
@@ -216,13 +221,18 @@ class Solver:
       if len(domain) == 0:
         #print('Unsatisfied: len("%s") = 0' % (name))
         return True
+      elif self.is_atomic(domain):
+        var = next(iter(domain))
+        for constraint in self.constraints[name]:
+          if self.is_atomic(self.variables[constraint]) and var in self.variables[constraint]:
+            return True
     return False
 
   def is_atomic(self, domain):
     return len(domain) == 1
 
   def propagate(self):
-    self.propagations = self.propagations + 1
+    self.num_propagation += 1
     #print('Propagating')
     newAtomics = []
     for vName, vDomain in self.variables.items():
@@ -260,17 +270,26 @@ class Solver:
     """
     Chooses the variable to split
     """
-    self.splitnumber = self.splitnumber + 1
-    smallest_domain_len = 81
+    self.num_splitting += 1
+    smallest_domain_len = 9
     smallest_domain_name = []
-    for name in sorted(self.variables.keys()):
-      domain = self.variables[name]
-      #print ('name', name)      
-      #print ('len', len(domain))
-      if len(domain) > 1 and smallest_domain_len > len(domain):
-        smallest_domain_name = name
-        smallest_domain_len = len(domain)
-        #print('Splitting "%s" with a domain %s' % (name, domain))
+    if self.fl_split == 1:
+      for name in sorted(self.variables.keys()):
+        domain = self.variables[name]
+        #print ('name', name)      
+        #print ('len', len(domain))
+        if len(domain) > 1:
+          #print('Splitting "%s" with a domain %s' % (name, domain))
+          return name
+    else:
+      for name in sorted(self.variables.keys()):
+        domain = self.variables[name]
+        #print ('name', name)      
+        #print ('len', len(domain))
+        if len(domain) > 1 and smallest_domain_len > len(domain):
+          smallest_domain_name = name
+          smallest_domain_len = len(domain)
+          #print('Splitting "%s" with a domain %s' % (name, domain))
     
     return smallest_domain_name
 
@@ -280,8 +299,10 @@ class Solver:
   def solve(self):
     #print(self)
     # Propagates fixed variables
+
     #print('Initial domain size:', self.domain_space_size())
-    self.propagate()
+    if self.fl_propagate:
+      self.propagate()
     #print('Domain size after fixed variables propagation:', self.domain_space_size())
     #print(self)
     if self.is_happy():
@@ -309,7 +330,8 @@ class Solver:
       ##print('In the stack:', [(vName, val) for vName, val, _ in stack[-5:]])
       decisionStack.append((vName, val, worldState))
       ##print('In the decision stack:', [(vName, val) for vName, val, _ in decisionStack[-5:]])
-      self.propagate()
+      if self.fl_propagate:
+        self.propagate()
 
       # If it's unsatisfied solution. Then we need to backtrack.
       if self.is_unsatisfied():
@@ -328,19 +350,23 @@ class Solver:
           stack.append((vName, val, worldState))
 
 
-solver = Solver(variables, constraints)
+solver = Solver(variables, constraints,
+                True if sys.argv[2] == 'PROP_ON' else False,
+                1 if sys.argv[3] == 'SPLIT_1' else 2)
 t1 = time.time()
 solver.solve()
-prop = solver.propagations
-split = solver.splitnumber
+print('c Consumed time:', (time.time() - t1))
+print('c Number of propagation:', solver.num_propagation)
+print('c Number of splitting:', solver.num_splitting)
+print('Solution:', solver)
 f = open('sudoku/Results/result.txt', 'w')
+prop = solver.num_propagation
+split = solver.num_splitting
 f.write(str(time.time() - t1))
 f.write("\n")
 f.write(str(prop))
 f.write("\n")
 f.write(str(split)) 
-print('Consumed time:', (time.time() - t1))
-print('Solution:', solver)
 f.close()
 
 def fill_sudoku_model1(sudoku, solution):
@@ -349,7 +375,19 @@ def fill_sudoku_model1(sudoku, solution):
       if sudoku[i, j] == 0:
         sudoku[i, j] = next(iter(solution['%d,%d' % (i, j)]))
 
+def fill_sudoku_model2(sudoku, solution):
+  size, _ = sudoku.shape
+  for i in range(1, size + 1):
+    for j in range(size):
+      sudoku_cell = next(iter(solution['%d,%dc' % (i, j)]))
+      k = sudoku_cell // size
+      m = sudoku_cell % size
+      if sudoku[k, m] == 0:
+        sudoku[k, m] = i
+
 #print(solver.domain_space_size())
 if sys.argv[1] == 'MODEL1':
   fill_sudoku_model1(sudoku_matrix, solver.variables)
+else:
+  fill_sudoku_model2(sudoku_matrix, solver.variables)
 #print(sudoku_matrix)

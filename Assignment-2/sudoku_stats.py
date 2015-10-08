@@ -9,7 +9,7 @@ times = []
 propagations = []
 splits = []
 for i in range(length_of_files-3):
-	subprocess.call(['python main.py MODEL1 "sudoku/test%i.text"'%(i)], shell = True)
+	subprocess.call(['python main.py MODEL1 PROP_OFF SPLIT_1 "sudoku/test%i.text"'%(i)], shell = True)
 	f = open('sudoku/Results/result.txt', 'r')
 	time = f.readline()
 	times.append(float(time[:-1]))	
