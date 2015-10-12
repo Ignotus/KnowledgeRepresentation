@@ -30,27 +30,38 @@ import time
 # Create_sudoku_matrix reads file name and size and return a matrix that contains 
 # sudoku and the instanice
 def create_sudoku_matrix(f, size):
+  # read sudoku line from stream
   line = f.readline()
-  # TODO: Rewrite it for NxN sudoku
+  
+  # create empty container for sudoku
   sudoku_matrix = np.zeros((size, size))
   index = 0
+
+  # loop over all elements in empty container
   for i in range(size):
     for j in range(size):
+      # if element contains a number fill index with its value
       if line[index].isdigit():
         sudoku_matrix[i, j] = line[index]
       else:
+      # else create empty sudoku  
         sudoku_matrix[i, j] = 0
       index += 1
   return sudoku_matrix.astype(int)
 
+# Use standard test file or if arguments given use the given test file
 file_name = 'test.txt'
 if len(sys.argv) > 4:
   file_name = sys.argv[4]
 
 print('Reading from', file_name)
-sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
-#print(sudoku_matrix)
 
+sudoku_matrix = create_sudoku_matrix(open(file_name, 'r'), 9)
+print(sudoku_matrix)
+
+# Preproces model 1 is contains the constraints of model 1.
+# Model 1 is the model of variables of boxes and domain of numbers.
+# This function contains the rules for the sudoku.
 def preprocess_model1(sudoku):
   """
       Returns variables and constraints
@@ -61,26 +72,35 @@ def preprocess_model1(sudoku):
   row, column = sudoku.shape
   variables = {}
   constraints = {}
+
+  # Create variables with domains and constraints
   for i in range(row):
     for j in range(column):
+      # Create variable name
       cell_name = '%d,%d' % (i, j)
       var = None
+      # if domain empty give full domain
       if sudoku[i, j] == 0:
         var = {1, 2, 3, 4, 5, 6, 7, 8, 9}
-      else:
+      # Else give domain to variable
+      else:  
         var = {sudoku[i, j]}
 
+      # Add variable to dictonary  
       variables[cell_name] = var
 
+      # Create constraints 
       cell_constraints = set()
+      # Create rows constraints
       for ii in range(row):
         if ii != i:
           cell_constraints.add('%d,%d' % (ii, j))
-
+      # Create colomn constraints    
       for jj in range(column):
         if jj != j:
           cell_constraints.add('%d,%d' % (i, jj))
 
+      # Create rectangle constraints    
       rect_i = (i // 3) * 3
       rect_j = (j // 3) * 3
       for ii in range(rect_i, rect_i + 3):
@@ -88,18 +108,31 @@ def preprocess_model1(sudoku):
           if ii != i and jj != j:
             cell_constraints.add('%d,%d' % (ii, jj))
 
+      # add constraints      
       constraints[cell_name] = list(cell_constraints)
         
   return variables, constraints
 
+
+# Preproces model 2 is contains the constraints of model 2.
+# Model 2 is the model of variables of numbers and domain of boxes.
+# This function contains the rules for the sudoku.
 def preprocess_model2(sudoku):
+  # Create container variables
   size, _ = sudoku.shape
   variables = {}
   constraints = {}
-
+  """
+      Returns variables and constraints
+      a variable is a set of its domain
+      a constraint is a set of variables that it should not be equal to
+  """
+  # Create variables
   for i in range(size):
     for j in range(size):
+      # Determine with if variabeles contain a value.
       fixedValue = sudoku_matrix[i, j]
+      # If box contains value then create 3 variables with its domain 
       if fixedValue != 0:
         cellName = i * size + j #'%d,%d' % (i, j)
         variables['%d,%dc' % (fixedValue, j)] = {cellName}
@@ -107,6 +140,7 @@ def preprocess_model2(sudoku):
         boxId = (i // 3) * (size // 3) + j // 3
         variables['%d,%db' % (fixedValue, boxId)] = {cellName}
 
+  # if its not a fixed variable create other variables      
   for i in range(1, size + 1): # Number
     for j in range(size): # Number index
       varNameC = '%d,%dc' % (i, j)
@@ -128,6 +162,7 @@ def preprocess_model2(sudoku):
                                             for m in range(boxRowStart, boxRowStart + 3)}
         print(variables[varNameB])
 
+  # Create constraints      
   allConstraints = set(variables.keys())
   print(sorted(list(allConstraints)))
   #sys.exit()
@@ -390,4 +425,4 @@ if sys.argv[1] == 'MODEL1':
   fill_sudoku_model1(sudoku_matrix, solver.variables)
 else:
   fill_sudoku_model2(sudoku_matrix, solver.variables)
-#print(sudoku_matrix)
+print(sudoku_matrix)
