@@ -1,5 +1,7 @@
 # Reads a large sudoku file and prints all seperate files in map sudoku
 import os
+# CHANGE FILE HERE!!!!!!!!!!!!!!
+# ALL FILES A PUT INTO SUDOKU MAP
 f = open('sudoku/sudoku.txt', 'r')
 
 # Obtain ever line in file and put in matrix
